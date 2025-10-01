@@ -26,7 +26,7 @@ College_Practicals/
 
 1. **Clone the repository**:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/himanshu-jadhav108/College_Practicals.git
 cd College_Practicals
 ```
 
