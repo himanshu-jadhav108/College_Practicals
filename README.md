@@ -7,14 +7,14 @@ It is structured to help **new learners** quickly understand and run the experim
 
 ## 📂 Repository Structure
 ```
-AI-DS-Practicals-SPPU/
+College_Practicals/
 │
-├── AI/
+├── Artificial Intelligence/
 │   ├── Basic/         # Beginner-friendly AI practicals
-│   ├── Advanced/      # Advanced AI practicals with visualizations (matplotlib, networkx, etc.)
+│   ├── Advance/      # Advanced AI practicals with visualizations (matplotlib, networkx, etc.)
 │   └── README_AI.md   # AI folder README
 │
-├── DS/
+├── Data Structure/
 │   └── README_DS.md   # Data Structures folder README
 │
 └── README.md          # Main repository README
@@ -27,7 +27,7 @@ AI-DS-Practicals-SPPU/
 1. **Clone the repository**:
 ```bash
 git clone <your-repo-url>
-cd AI-DS-Practicals-SPPU
+cd College_Practicals
 ```
 
 2. **Install Python 3.x** if not installed:  
@@ -37,20 +37,20 @@ Download from [python.org](https://www.python.org/)
 
 - **For AI Basic practicals**:
 ```bash
-cd AI/Basic
-python Exp1.py
+cd Artificial Intelligence/basic
+python Practical_01.py
 ```
 
 - **For AI Advanced practicals**:
 ```bash
-cd AI/Advanced
-python Exp1.py
+cd Artificial Intelligence/advance
+python Practical_01.py
 ```
 
 - **For DS practicals**:
 ```bash
-cd DS
-python Exp1A.py
+cd Data Structure
+python Practical_01.py
 ```
 
 4. **Explore and learn**:  
