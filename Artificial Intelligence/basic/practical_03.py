@@ -1,3 +1,6 @@
+#Name: Himanshu H. Jadhav
+#Roll No. : SE-27
+#Batch : S2
 # Experiment No. 3 - A* Algorithm for Pathfinding in a Grid
 
 import heapq

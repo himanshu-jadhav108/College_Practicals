@@ -1,3 +1,6 @@
+#Name: Himanshu H. Jadhav
+#Roll No. : SE-27
+#Batch : S2
 #Linear Search
 
 def roll_call_list(rno , target):

@@ -15,6 +15,7 @@ This folder contains **DS practical codes** in Python.
 8. Tree  
 9. Graph  
 
+
 ---
 
 ✅ Each practical is modular and well-commented for easy understanding.

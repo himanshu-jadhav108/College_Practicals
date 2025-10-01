@@ -1,3 +1,6 @@
+#Name: Himanshu H. Jadhav
+#Roll No. : SE-27
+#Batch : S2
 #Binary Search
 
 def binary_search(rno, target):

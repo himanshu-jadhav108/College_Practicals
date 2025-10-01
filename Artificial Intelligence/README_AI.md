@@ -20,7 +20,7 @@ The experiments are available in **two versions**:
 
 ### 📂 Folder Structure
 - `Basic/` → Beginner-friendly implementations  
-- `Advanced/` → Same experiments but with **visualizations** (matplotlib, networkx, etc.)  
+- `Advance/` → Same experiments but with **visualizations** (matplotlib, networkx, etc.)  
 
 ✅ Each practical is written in Python and structured for clarity.
 

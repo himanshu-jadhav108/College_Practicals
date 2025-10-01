@@ -1,3 +1,6 @@
+#Name: Himanshu H. Jadhav
+#Roll No. : SE-27
+#Batch : S2
 #Experiment No.1 - Expert Rule Based System
 
 def expert_system():

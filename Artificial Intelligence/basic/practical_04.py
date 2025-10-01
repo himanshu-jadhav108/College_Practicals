@@ -1,3 +1,6 @@
+#Name: Himanshu H. Jadhav
+#Roll No. : SE-27
+#Batch : S2
 # Experiment No. 4 - Constraint Satisfaction Problem - Map ColoringS
 
 # Define the map: each region and its neighbors
