@@ -18,7 +18,7 @@ AI/
 |   |── practical_04.py
 |   |── practical_05.py
 |   └── practical_06.py 
-└──advance/
+└──Advanced/
     ├── Jupyter_Notebook/
     │   ├── csp_aust_map_col.ipynb
     │   |── practical_01.ipynb
@@ -49,7 +49,7 @@ AI/
 5. Minimax Tic-Tac-Toe – Basic AI decision making.
 6. Minimax with Alpha-Beta Pruning – Optimized AI decision making.
 
-> **Folder:** `AI/Basic/`  
+> **Folder:** `Aritificial_Intelligence/Basic/`  
 
 ---
 
@@ -61,7 +61,7 @@ AI/
 5. Minimax Tic-Tac-Toe – Animated moves with AI evaluation scores.
 6. Minimax with Alpha-Beta Pruning – Animated AI moves with pruning visualizations.
 
-> **Folder:** `AI/Advance/`  
+> **Folder:** `Aritificial_Intelligence/Advanced/`  
 
 ---
 
@@ -74,12 +74,12 @@ pip install matplotlib jupyter
 
 2. Run Python Scripts:
 ```bash
-python Expert_System/expert_system.py
+python Advancd/Scripts/practical_01.py
 ```
 
 3. Run Jupyter Notebooks:
 ```bash
-jupyter notebook BFS_DFS_Maze_Solver/maze_solver.ipynb
+jupyter notebook Advanced/Jupyter_Notebook/practical_01.ipynb
 ```
 
 ---

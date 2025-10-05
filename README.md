@@ -9,12 +9,12 @@ It is structured to help **new learners** quickly understand and run the experim
 ```
 College_Practicals/
 │
-├── Artificial Intelligence/
+├── Artificial_Intelligence/
 │   ├── Basic/         # Beginner-friendly AI practicals
-│   ├── Advance/      # Advanced AI practicals with visualizations (matplotlib, networkx, etc.)
+│   ├── Advanced/      # Advanced AI practicals with visualizations (matplotlib, networkx, etc.)
 │   └── README_AI.md   # AI folder README
 │
-├── Data Structure/
+├── Data_Structures/
 │   └── README_DS.md   # Data Structures folder README
 │
 └── README.md          # Main repository README
@@ -37,13 +37,13 @@ Download from [python.org](https://www.python.org/)
 
 - **For AI Basic practicals**:
 ```bash
-cd Artificial Intelligence/basic
+cd Artificial_Intelligence/Basic
 python Practical_01.py
 ```
 
 - **For AI Advanced practicals**:
 ```bash
-cd Artificial Intelligence/advance
+cd Artificial_Intelligence/Advanced
 python Practical_01.py
 ```
 

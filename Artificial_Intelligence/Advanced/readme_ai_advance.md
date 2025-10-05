@@ -51,12 +51,12 @@ pip install matplotlib
 
 2. Run Python Script:
 ```bash
-python expert_system.py
+python practical_01.py
 ```
 
 3. Run Jupyter Notebook:
 ```bash
-jupyter notebook expert_system.ipynb
+jupyter notebook practical_01.ipynb
 ```
 
 ---
