@@ -76,14 +76,14 @@ method_map = {"1": "linear", "2": "quadratic", "3": "double"}
 method = method_map.get(choice, "linear")
 
 n = int(input("Enter number of clients: "))
-hash_table = HashTable(method=method)
+hash_table = HashTable(n ,method=method)
 
 for _ in range(n):
     name = input("Enter client name: ")
     phone = input("Enter client phone number: ")
     hash_table.insert(name, phone)
 
-hash_table.display()
-
 search_name = input("\nEnter name to search for phone number: ")
 hash_table.search(search_name)
+
+hash_table.display()
