@@ -17,6 +17,8 @@ College_Practicals/
 ├── Data_Structures/
 │   └── README_DS.md   # Data Structures folder README
 │
+|── Case_Study/
+│ 
 └── README.md          # Main repository README
 ```
 
