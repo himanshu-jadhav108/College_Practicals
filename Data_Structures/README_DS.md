@@ -24,3 +24,5 @@ This folder contains **DS practical codes** in Python.
 
 ## 👨‍💻 Maintainer
 Maintained by **Himanshu Jadhav**
+Second-Year Engineering Student (AI & Data Science)  
+[GitHub](https://github.com/himanshu-jadhav108) • [LinkedIn](https://www.linkedin.com/in/himanshu-jadhav-328082339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ) • [Instagram](https://www.instagram.com/himanshu_jadhav_108?igsh=MWYxamppcTBlY3Rl ) • [Portfolio](https://himanshu-jadhav-portfolio.vercel.app/)
