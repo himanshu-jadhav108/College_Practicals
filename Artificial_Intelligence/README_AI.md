@@ -10,7 +10,7 @@ This repository contains all **AI practical experiments** for your college cours
 ## **Repository Structure**
 
 ```
-AI/
+Artificial_Intelligence/
 ├── Basic/
 │   ├── practical_01.py
 |   |── practical_02.py
@@ -84,5 +84,11 @@ jupyter notebook Advanced/Jupyter_Notebook/practical_01.ipynb
 
 ---
 
-## **Author**
-**Himanshu Hemchandra Jadhav**
+✅ Each practical is modular and well-commented for easy understanding.
+
+---
+
+## 👨‍💻 Maintainer
+Maintained by **Himanshu Jadhav**
+Second-Year Engineering Student (AI & Data Science)  
+[GitHub](https://github.com/himanshu-jadhav108) • [LinkedIn](https://www.linkedin.com/in/himanshu-jadhav-328082339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ) • [Instagram](https://www.instagram.com/himanshu_jadhav_108?igsh=MWYxamppcTBlY3Rl ) • [Portfolio](https://himanshu-jadhav-portfolio.vercel.app/)
