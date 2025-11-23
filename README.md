@@ -15,9 +15,10 @@ College_Practicals/
 │   └── README_AI.md   # AI folder README
 │
 ├── Data_Structures/
+│   |── Case_Study/    # Case Study Programs for the Data Structures usage 
+│   |── Mini_Project/  # Mini-Project demonstrating the Data Structure concept understanding
+│   |── Practicals/    # Data Structure Practicals
 │   └── README_DS.md   # Data Structures folder README
-│
-|── Case_Study/
 │ 
 └── README.md          # Main repository README
 ```
