@@ -18,6 +18,7 @@ College_Practicals/
 │   |── Case_Study/    # Case Study Programs for the Data Structures usage 
 │   |── Mini_Project/  # Mini-Project demonstrating the Data Structure concept understanding
 │   |── Practicals/    # Data Structure Practicals
+│   |── ENTC_DS_Practicals/    # Data Structure ENTC Practicals
 │   └── README_DS.md   # Data Structures folder README
 │ 
 └── README.md          # Main repository README
