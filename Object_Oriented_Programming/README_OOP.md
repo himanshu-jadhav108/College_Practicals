@@ -31,15 +31,14 @@ python practical_name.py
 
 ## 📚 Practical List
 
-(Add your practicals as you create them)
+1. **[Calculator.java](Calculator.java)** - A Java calculator program demonstrating basic arithmetic operations with exception handling.
+2. **[MathOverloadingDemo.java](MathOverloadingDemo.java)** - Demonstration of method overloading in Java using absolute value functions for different data types.
 
 ---
 
 ## 🛠 Dependencies
 
-- Python 3.x (primary language)
-- Java (optional, for Java-based OOP examples)
-- C++ (optional, for C++-based OOP examples)
+-  Java (For Java-based OOP examples)
 
 ---
 
