@@ -33,6 +33,7 @@ python practical_name.py
 
 1. **[Calculator.java](Calculator.java)** - A Java calculator program demonstrating basic arithmetic operations with exception handling.
 2. **[MathOverloadingDemo.java](MathOverloadingDemo.java)** - Demonstration of method overloading in Java using absolute value functions for different data types.
+3. **[EcommerceOrder.java](EcommerceOrder.java)** - A Java class modeling an e-commerce order (items, quantities, totals), demonstrating collections, constructors, total calculation, and basic exception handling.
 
 ---
 
