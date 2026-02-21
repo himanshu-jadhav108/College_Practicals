@@ -95,12 +95,12 @@ ENROLLMENT {
 
 ## Notes
 
-Schema reused from previous practical.
-Queries executed using MySQL Docker container.
-Filtering and sorting improve data readability and analysis.
-Aggregation provides statistical insights from relational data.
-Nested subqueries enable advanced data retrieval scenarios.
-ER diagram generated using Mermaid in VS Code.
+- Schema reused from previous practical.
+- Queries executed using MySQL Docker container.
+- Filtering and sorting improve data readability and analysis.
+- Aggregation provides statistical insights from relational data.
+- Nested subqueries enable advanced data retrieval scenarios.
+- ER diagram generated using Mermaid in VS Code.
 
 ---
 
