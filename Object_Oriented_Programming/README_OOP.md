@@ -15,7 +15,20 @@ This repository focuses on:
 
 ---
 
-## 🚀 How to Use
+## � Folder Structure
+
+```
+Object_Oriented_Programming/
+├── README_OOP.md
+├── ArrayOperation.java
+├── Calculator.java
+├── EcommerceOrder.java
+└── MathOverloadingDemo.java
+```
+
+---
+
+## �🚀 How to Use
 
 1. **Navigate to the Object_Oriented_Programming folder**:
 ```bash
@@ -43,7 +56,7 @@ python practical_name.py
 
 ---
 
-## 📖 Key Concepts Covered
+## 📖 Topics Covered
 
 - Classes and Objects
 - Constructors and Destructors

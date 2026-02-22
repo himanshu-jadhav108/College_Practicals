@@ -14,7 +14,35 @@ This repository focuses on:
 - **Database Performance** – Indexing, query optimization, and execution plans
 
 ---
+## 📁 Folder Structure
 
+```
+Database_Management_System/
+├── README_DBMS.md
+├── temperory.txt
+├── MiniProjects/
+│   ├── ERD/
+│   ├── Notes/
+│   │   └── README.md
+│   ├── Screenshots/
+│   └── SQL/
+├── Practical_1/ to Practical_9/
+│   ├── ERD/
+│   ├── Notes/
+│   │   └── README.md
+│   ├── Screenshots/
+│   └── SQL/
+│       ├── analysis.sql
+│       ├── schema.sql
+│       └── seed.sql
+├── Screenshots/
+└── Trial/
+    ├── ERD/
+    ├── Notes/
+    └── SQL/
+```
+
+---
 ## 🚀 How to Use
 
 1. **Navigate to the Database_Management_System folder**:
@@ -37,7 +65,34 @@ python practical_name.py
 
 ## 📚 Practical List
 
-(Add your practicals as you create them)
+1. **[Practical 1: Database Setup and Creation](Practical_1/)**  
+   Setup and create a database using MySQL/PostgreSQL. Covers entities like Student, Course, Instructor, Enrollment, and their relationships.
+
+2. **[Practical 2: Views and Indexing](Practical_2/)**  
+   Optimizing a Student Course Management System using views and indexing for faster query performance.
+
+3. **[Practical 3: SQL Queries with Filters and Sorting](Practical_3/)**  
+   Perform advanced querying using filtering, sorting, aggregation, and nested subqueries.
+
+4. **[Practical 4: Multi-Table Joins](Practical_4/)**  
+   Implement multi-table joins in a Customer Order Management System using INNER JOIN, LEFT JOIN, etc.
+
+5. **[Practical 5: PL/SQL Procedures and Functions](Practical_5/)**  
+   Design a Sales Management System using stored procedures and functions for data handling.
+
+6. **[Practical 6: Triggers and Cursors](Practical_6/)**  
+   Develop an Employee Management System with triggers for audit logging and cursors for salary updates.
+
+7. **[Practical 7: [In Progress]](Practical_7/)**  
+   [Description to be added]
+
+8. **[Practical 8: [In Progress]](Practical_8/)**  
+   [Description to be added]
+
+9. **[Practical 9: MySQL Database Backup and Recovery](Practical_9/)**  
+   Demonstrate backup and recovery operations in a Library Management System.
+
+Additionally, there are **[MiniProjects](MiniProjects/)** and **[Trial](Trial/)** folders for advanced exercises.
 
 ---
 

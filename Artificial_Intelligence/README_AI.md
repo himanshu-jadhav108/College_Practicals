@@ -7,7 +7,7 @@ This repository contains all **AI practical experiments** for your college cours
 
 ---
 
-## **Repository Structure**
+## 📁 Folder Structure
 
 ```
 Artificial_Intelligence/
@@ -39,48 +39,68 @@ Artificial_Intelligence/
 ```
 ---
 
-## **Experiments Overview**
+## 📚 Practical List
 
 ### **Basic Experiments**
-1. Expert System – Rule-based decision making.
-2. BFS & DFS Maze Solver – Graph search algorithms.
-3. A* Algorithm Maze Solver – Heuristic-based pathfinding.
-4. CSP Map Coloring – Backtracking solution for map coloring.
-5. Minimax Tic-Tac-Toe – Basic AI decision making.
-6. Minimax with Alpha-Beta Pruning – Optimized AI decision making.
+1. **[Expert System](Basic/practical_01.py)** – Rule-based decision making.
+2. **[BFS & DFS Maze Solver](Basic/practical_02.py)** – Graph search algorithms.
+3. **[A* Algorithm Maze Solver](Basic/practical_03.py)** – Heuristic-based pathfinding.
+4. **[CSP Map Coloring](Basic/practical_04.py)** – Backtracking solution for map coloring.
+5. **[Minimax Tic-Tac-Toe](Basic/practical_05.py)** – Basic AI decision making.
+6. **[Minimax with Alpha-Beta Pruning](Basic/practical_06.py)** – Optimized AI decision making.
 
-> **Folder:** `Aritificial_Intelligence/Basic/`  
+> **[Basic Folder](Basic/)**
 
 ---
 
 ### **Advanced Experiments**
-1. Expert System – Interactive and visual interface.
-2. BFS & DFS Maze Solver – Animated step-by-step exploration.
-3. A* Algorithm Maze Solver – Animated pathfinding visualization.
-4. CSP Map Coloring – Real map coloring with interactive display.
-5. Minimax Tic-Tac-Toe – Animated moves with AI evaluation scores.
-6. Minimax with Alpha-Beta Pruning – Animated AI moves with pruning visualizations.
+1. **[Expert System](Advanced/Jupyter_Notebook/practical_01.ipynb)** – Interactive and visual interface.
+2. **[BFS & DFS Maze Solver](Advanced/Jupyter_Notebook/practical_02.ipynb)** – Animated step-by-step exploration.
+3. **[A* Algorithm Maze Solver](Advanced/Jupyter_Notebook/practical_03.ipynb)** – Animated pathfinding visualization.
+4. **[CSP Map Coloring](Advanced/Jupyter_Notebook/practical_04.ipynb)** – Real map coloring with interactive display.
+5. **[Minimax Tic-Tac-Toe](Advanced/Jupyter_Notebook/practical_05.ipynb)** – Animated moves with AI evaluation scores.
+6. **[Minimax with Alpha-Beta Pruning](Advanced/Jupyter_Notebook/practical_06.ipynb)** – Animated AI moves with pruning visualizations.
 
-> **Folder:** `Aritificial_Intelligence/Advanced/`  
+> **[Advanced Folder](Advanced/)**  
 
 ---
 
-## **How to Run**
+## 🚀 How to Use
 
-1. Install Required Libraries:
+1. **Navigate to the Artificial_Intelligence folder**:
 ```bash
-pip install matplotlib jupyter
+cd Artificial_Intelligence
 ```
 
-2. Run Python Scripts:
+2. **Run Python Scripts**:
 ```bash
-python Advancd/Scripts/practical_01.py
+python Basic/practical_01.py
+# or
+python Advanced/Scripts/practical_01.py
 ```
 
-3. Run Jupyter Notebooks:
+3. **Run Jupyter Notebooks**:
 ```bash
 jupyter notebook Advanced/Jupyter_Notebook/practical_01.ipynb
 ```
+
+---
+
+## 🛠 Dependencies
+
+- matplotlib
+- jupyter
+
+---
+
+## 📖 Topics Covered
+
+- Expert Systems
+- Graph Search Algorithms (BFS, DFS)
+- Heuristic Search (A* Algorithm)
+- Constraint Satisfaction Problems (CSP)
+- Game Theory and Minimax Algorithm
+- Alpha-Beta Pruning
 
 ---
 
