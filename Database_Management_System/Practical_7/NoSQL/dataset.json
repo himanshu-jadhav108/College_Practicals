@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Himanshu Jadhav",
+    "email": "himanshu@gmail.com",
+    "age": 20,
+    "city": "Pune",
+    "purchases": [
+      {
+        "product": "Laptop",
+        "category": "Electronics",
+        "amount": 122000
+      }
+    ]
+  },
+
+  {
+    "name": "Omkar Kharat",
+    "email": "omkar@gmail.com",
+    "age": 21,
+    "city": "Pune",
+    "purchases": [
+      {
+        "product": "Phone",
+        "category": "Electronics",
+        "amount": 30000
+      },
+      {
+        "product": "Shoes",
+        "category": "Fashion",
+        "amount": 4000
+      }
+    ]
+  }
+]
