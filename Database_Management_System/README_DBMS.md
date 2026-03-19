@@ -1,127 +1,206 @@
-# Database Management System Practicals – SPPU 2024
+# 🗄️ Database Management System Practicals – SPPU 2024
 
-This folder contains **DBMS practical codes** covering database design, SQL queries, normalization, and transaction management as per **SPPU 2024 pattern**.
+> **Second-Year Engineering | AI & Data Science | Savitribai Phule Pune University**
+
+![SQL](https://img.shields.io/badge/SQL-MySQL%20%7C%20PostgreSQL%20%7C%20SQLite-blue?logo=mysql&logoColor=white)
+![NoSQL](https://img.shields.io/badge/NoSQL-MongoDB-green?logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![SPPU](https://img.shields.io/badge/University-SPPU%202024-orange)
 
 ---
 
 ## 📌 Overview
 
-This repository focuses on:
-- **SQL Queries** – Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL)
-- **Database Design** – ER diagrams, normalization (1NF, 2NF, 3NF, BCNF)
-- **Advanced SQL** – Joins, subqueries, views, stored procedures, and triggers
-- **Transaction Management** – ACID properties, concurrency control, and locking mechanisms
-- **Database Performance** – Indexing, query optimization, and execution plans
+This repository contains **DBMS practical codes** as per the **SPPU 2024 curriculum**, covering relational and non-relational database concepts, query design, optimization techniques, and transaction management.
+
+### Key Focus Areas
+
+| Area | Topics |
+|------|--------|
+| **SQL Foundations** | DDL, DML, DCL, TCL |
+| **Database Design** | ER Diagrams, Normalization (1NF → BCNF) |
+| **Advanced SQL** | Joins, Subqueries, Views, Stored Procedures, Triggers, Cursors |
+| **Transaction Management** | ACID Properties, Concurrency Control, Locking |
+| **Performance Tuning** | Indexing, Query Optimization, Execution Plans |
+| **NoSQL** | MongoDB CRUD, Indexing, Aggregation Pipelines |
 
 ---
+
 ## 📁 Folder Structure
 
 ```
 Database_Management_System/
-├── README_DBMS.md
-├── temperory.txt
-├── MiniProjects/
+├── README_DBMS.md               ← You are here
+├── .gitignore
+├── Practical_1/                 ← Database Setup & Creation (SQL)
+├── Practical_2/                 ← Views & Indexing (SQL)
+├── Practical_3/                 ← Filters, Sorting & Aggregation (SQL)
+├── Practical_4/                 ← Multi-Table Joins (SQL)
+├── Practical_5/                 ← PL/SQL Procedures & Functions
+├── Practical_6/                 ← Triggers & Cursors
+├── Practical_7/                 ← NoSQL Indexing (MongoDB)
+│   └── NoSQL/
+│       ├── indexing.js
+│       └── dataset.json
+├── Practical_8/                 ← NoSQL Aggregation Pipelines (MongoDB)
+│   └── NoSQL/
+│       └── aggregation_queries.js
+├── Practical_9/                 ← Backup & Recovery (MySQL)
+├── MiniProjects/                ← Advanced Exercises & ERDs
 │   ├── ERD/
 │   ├── Notes/
-│   │   └── README.md
 │   ├── Screenshots/
 │   └── SQL/
-├── Practical_1/ to Practical_9/
-│   ├── ERD/
-│   ├── Notes/
-│   │   └── README.md
-│   ├── Screenshots/
-│   └── SQL/
-│       ├── analysis.sql
-│       ├── schema.sql
-│       └── seed.sql
-├── Screenshots/
-└── Trial/
+└── Trial/                       ← Experimental / Scratch Work
     ├── ERD/
     ├── Notes/
     └── SQL/
 ```
 
----
-## 🚀 How to Use
-
-1. **Navigate to the Database_Management_System folder**:
-```bash
-cd Database_Management_System
+Each practical typically contains:
 ```
-
-2. **Set up your database** (MySQL, PostgreSQL, or SQLite):
-```bash
-# For MySQL
-mysql -u username -p database_name < script.sql
-```
-
-3. **Run SQL scripts or Python programs**:
-```bash
-python practical_name.py
+Practical_N/
+├── ERD/           ← Entity-Relationship Diagrams
+├── Notes/
+│   └── README.md  ← Practical description & theory
+├── Screenshots/   ← Query output screenshots
+└── SQL/           ← SQL scripts
+    ├── schema.sql ← Table creation
+    ├── seed.sql   ← Sample data insertion
+    └── analysis.sql ← Queries & analysis
 ```
 
 ---
 
 ## 📚 Practical List
 
-1. **[Practical 1: Database Setup and Creation](Practical_1/)**  
-   Setup and create a database using MySQL/PostgreSQL. Covers entities like Student, Course, Instructor, Enrollment, and their relationships.
+### 🔹 SQL Practicals
 
-2. **[Practical 2: Views and Indexing](Practical_2/)**  
-   Optimizing a Student Course Management System using views and indexing for faster query performance.
+| # | Title | Key Concepts |
+|---|-------|-------------|
+| 1 | [Database Setup & Creation](Practical_1/) | DDL, ER Mapping, Student–Course–Instructor schema |
+| 2 | [Views & Indexing](Practical_2/) | `CREATE VIEW`, `CREATE INDEX`, query optimization |
+| 3 | [Filters, Sorting & Aggregation](Practical_3/) | `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, subqueries |
+| 4 | [Multi-Table Joins](Practical_4/) | `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, Customer–Order schema |
+| 5 | [PL/SQL Procedures & Functions](Practical_5/) | `CREATE PROCEDURE`, `CREATE FUNCTION`, Sales Management System |
+| 6 | [Triggers & Cursors](Practical_6/) | `CREATE TRIGGER`, cursors, audit logging, Employee Management |
+| 9 | [Backup & Recovery](Practical_9/) | `mysqldump`, restore, Library Management System |
 
-3. **[Practical 3: SQL Queries with Filters and Sorting](Practical_3/)**  
-   Perform advanced querying using filtering, sorting, aggregation, and nested subqueries.
+### 🔹 NoSQL Practicals (MongoDB)
 
-4. **[Practical 4: Multi-Table Joins](Practical_4/)**  
-   Implement multi-table joins in a Customer Order Management System using INNER JOIN, LEFT JOIN, etc.
-
-5. **[Practical 5: PL/SQL Procedures and Functions](Practical_5/)**  
-   Design a Sales Management System using stored procedures and functions for data handling.
-
-6. **[Practical 6: Triggers and Cursors](Practical_6/)**  
-   Develop an Employee Management System with triggers for audit logging and cursors for salary updates.
-
-7. **[Practical 7: [In Progress]](Practical_7/)**  
-   [Description to be added]
-
-8. **[Practical 8: [In Progress]](Practical_8/)**  
-   [Description to be added]
-
-9. **[Practical 9: MySQL Database Backup and Recovery](Practical_9/)**  
-   Demonstrate backup and recovery operations in a Library Management System.
-
-Additionally, there are **[MiniProjects](MiniProjects/)** and **[Trial](Trial/)** folders for advanced exercises.
+| # | Title | Key Concepts |
+|---|-------|-------------|
+| 7 | [NoSQL Indexing](Practical_7/) | `createIndex()`, compound indexes, nested field indexes, `getIndexes()`, `dropIndex()` |
+| 8 | [NoSQL Aggregation Pipelines](Practical_8/) | `$group`, `$unwind`, `$sort`, `$limit`, hashtag analytics, Social Media dataset |
 
 ---
 
-## 🛠 Dependencies
+## 🚀 Getting Started
 
-- Python 3.x
-- mysql-connector-python (for MySQL)
-- psycopg2 (for PostgreSQL)
-- sqlite3 (built-in for SQLite)
-- pandas (for data analysis with SQL)
+### SQL Practicals
+
+**1. Connect to your database:**
+```bash
+# MySQL
+mysql -u username -p
+
+# PostgreSQL
+psql -U username -d database_name
+```
+
+**2. Run the SQL scripts in order:**
+```sql
+-- Step 1: Create schema
+SOURCE Practical_N/SQL/schema.sql;
+
+-- Step 2: Insert seed data
+SOURCE Practical_N/SQL/seed.sql;
+
+-- Step 3: Run analysis queries
+SOURCE Practical_N/SQL/analysis.sql;
+```
+
+**3. Or use Python to connect and execute:**
+```bash
+python practical_name.py
+```
+
+### NoSQL Practicals (MongoDB)
+
+**1. Start MongoDB shell:**
+```bash
+mongosh
+```
+
+**2. Select or create your database:**
+```js
+use practicalDB
+```
+
+**3. Load dataset and run scripts:**
+```bash
+# Import dataset
+mongoimport --db practicalDB --collection users --file dataset.json --jsonArray
+
+# Run indexing script
+mongosh < Practical_7/NoSQL/indexing.js
+
+# Run aggregation queries
+mongosh < Practical_8/NoSQL/aggregation_queries.js
+```
+
+---
+
+## 🛠️ Dependencies
+
+### Python (SQL Practicals)
+```bash
+pip install mysql-connector-python psycopg2 pandas
+```
+
+| Package | Purpose |
+|---------|---------|
+| `mysql-connector-python` | Connect to MySQL |
+| `psycopg2` | Connect to PostgreSQL |
+| `sqlite3` | Built-in SQLite support |
+| `pandas` | Data analysis & result formatting |
+
+### NoSQL Practicals
+- **MongoDB** (v6.x or later) — [Download](https://www.mongodb.com/try/download/community)
+- **mongosh** — MongoDB Shell
 
 ---
 
 ## 📖 Topics Covered
 
-- Table creation and manipulation
-- Query optimization
-- Normalization and denormalization
-- Views and Indexes
-- Stored procedures and triggers
-- Transaction control
+- ✅ Table creation, alteration, and deletion (DDL)  
+- ✅ Data insertion, updating, and deletion (DML)  
+- ✅ User privileges and access control (DCL)  
+- ✅ ER diagram design and relational mapping  
+- ✅ Normalization — 1NF, 2NF, 3NF, BCNF  
+- ✅ Views and materialized query optimization  
+- ✅ Indexing strategies (single-column, compound, nested)  
+- ✅ Stored procedures and user-defined functions  
+- ✅ Triggers for audit logging and automation  
+- ✅ Cursors for row-by-row processing  
+- ✅ Transaction control (COMMIT, ROLLBACK, SAVEPOINT)  
+- ✅ Backup and recovery strategies  
+- ✅ MongoDB CRUD operations  
+- ✅ MongoDB aggregation pipelines and analytics  
 
 ---
 
 ## 👨‍💻 Maintainer
-Maintained by **Himanshu Jadhav**  
-Second-Year Engineering Student (AI & Data Science)  
-[GitHub](https://github.com/himanshu-jadhav108) • [LinkedIn](https://www.linkedin.com/in/himanshu-jadhav-328082339) • [Instagram](https://www.instagram.com/himanshu_jadhav_108?igsh=MWYxamppcTBlY3Rl) • [Portfolio](https://himanshu-jadhav-portfolio.vercel.app/)
+
+**Himanshu Jadhav**  
+Second-Year Engineering Student — AI & Data Science | SPPU  
+
+[![GitHub](https://img.shields.io/badge/GitHub-himanshu--jadhav108-black?logo=github)](https://github.com/himanshu-jadhav108)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Himanshu%20Jadhav-blue?logo=linkedin)](https://www.linkedin.com/in/himanshu-jadhav-328082339)
+[![Instagram](https://img.shields.io/badge/Instagram-himanshu__jadhav__108-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/himanshu_jadhav_108?igsh=MWYxamppcTBlY3Rl)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blueviolet?logo=vercel)](https://himanshu-jadhav-portfolio.vercel.app/)
 
 ---
 
-✅ Each practical is modular and well-commented for easy understanding.
+> ✅ Each practical is **modular**, **well-commented**, and structured for easy understanding and colege lab submissions.
