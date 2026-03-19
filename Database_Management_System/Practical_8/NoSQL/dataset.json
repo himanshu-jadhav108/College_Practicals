@@ -1,0 +1,20 @@
+[
+  {
+    "user": { "user_id": "U101", "username": "himanshu_07" },
+    "content": "Learning MongoDB #MongoDB #NoSQL",
+    "hashtags": ["MongoDB", "NoSQL"],
+    "likes": 150,
+    "comments": 20,
+    "shares": 5,
+    "created_at": "2024-03-01"
+  },
+  {
+    "user": { "user_id": "U102", "username": "omkar_09" },
+    "content": "Big data trends #AI #BigData",
+    "hashtags": ["AI", "BigData"],
+    "likes": 300,
+    "comments": 40,
+    "shares": 20,
+    "created_at": "2024-03-02"
+  }
+]
