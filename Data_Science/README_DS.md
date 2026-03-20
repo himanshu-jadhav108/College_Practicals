@@ -14,6 +14,8 @@ This repository focuses on:
 
 ---
 
+## Project Structure
+
 ## 🚀 How to Use
 
 1. **Navigate to the Data_Science folder**:
