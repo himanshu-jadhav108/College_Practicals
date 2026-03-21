@@ -16,6 +16,37 @@ This repository focuses on:
 
 ## Project Structure
 
+```
+Data_Science/
+├── Practical_01/              # Linear Algebra
+│   ├── Basic/
+│   └── Advance/
+├── Practical_02/              # Probability & Statistics
+│   ├── Basic/
+│   └── Advance/
+├── Practical_03/              # Dataset Exploration
+│   ├── Basic/
+│   └── Advance/
+├── Practical_04/              # Titanic Dataset Analysis
+│   ├── Basic/
+│   └── Advance/
+├── Practical_05/              # Linear Regression - Boston Housing
+│   ├── Basic/
+│   └── Advance/
+├── Practical_06/              # Logistic Regression - Spam Classification
+│   ├── Basic/
+│   └── Advance/
+├── Practical_07/              # Power BI - Sales Dashboard
+│   ├── BI_Report/
+│   ├── Dataset/
+│   └── Images/
+├── Practical_08/              # Power BI - HR Analytics
+│   ├── BI_Report/
+│   ├── Dataset/
+│   └── Images/
+└── README_DS.md
+```
+
 ## 🚀 How to Use
 
 1. **Navigate to the Data_Science folder**:
@@ -42,7 +73,16 @@ jupyter notebook notebook_name.ipynb
 
 ## 📚 Practical List
 
-(Add your practicals as you create them)
+| No. | Title | Tools/Technologies | Folder |
+|-----|-------|-------------------|--------|
+| 01 | Linear Algebra | Python, numpy, pandas | `Practical_01/` |
+| 02 | Probability & Statistics | Python, numpy, matplotlib | `Practical_02/` |
+| 03 | Dataset Exploration | pandas, sklearn (Iris dataset) | `Practical_03/` |
+| 04 | Titanic Dataset Analysis | pandas, matplotlib, seaborn | `Practical_04/` |
+| 05 | Linear Regression - Boston Housing | scikit-learn, pandas | `Practical_05/` |
+| 06 | Logistic Regression - Spam Classification | scikit-learn, pandas | `Practical_06/` |
+| 07 | Sales Performance Dashboard (Power BI) | Power BI, DAX, Power Query | `Practical_07/` |
+| 08 | HR Analytics Dashboard (Power BI) | Power BI, DAX, Power Query | `Practical_08/` |
 
 ---
 
