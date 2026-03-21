@@ -34,19 +34,50 @@ Database_Management_System/
 ├── README_DBMS.md               ← You are here
 ├── .gitignore
 ├── Practical_1/                 ← Database Setup & Creation (SQL)
+│   ├── ERD/
+│   ├── Notes/README.md
+│   ├── Screenshots/
+│   └── SQL/
 ├── Practical_2/                 ← Views & Indexing (SQL)
+│   ├── ERD/
+│   ├── Notes/README.md
+│   ├── Screenshots/
+│   └── SQL/
 ├── Practical_3/                 ← Filters, Sorting & Aggregation (SQL)
+│   ├── ERD/
+│   ├── Notes/README.md
+│   ├── Screenshots/
+│   └── SQL/
 ├── Practical_4/                 ← Multi-Table Joins (SQL)
+│   ├── ERD/
+│   ├── Notes/README.md
+│   ├── Screenshots/
+│   └── SQL/
 ├── Practical_5/                 ← PL/SQL Procedures & Functions
+│   ├── ERD/
+│   ├── Notes/README.md
+│   ├── Screenshots/
+│   └── SQL/
 ├── Practical_6/                 ← Triggers & Cursors
+│   ├── ERD/
+│   ├── Notes/README.md
+│   ├── Screenshots/
+│   └── SQL/
 ├── Practical_7/                 ← NoSQL Indexing (MongoDB)
-│   └── NoSQL/
-│       ├── indexing.js
-│       └── dataset.json
+│   ├── NoSQL/
+│   │   └── practical07_playground.mongodb.js
+│   ├── Notes/README.md
+│   └── Screenshots/
 ├── Practical_8/                 ← NoSQL Aggregation Pipelines (MongoDB)
-│   └── NoSQL/
-│       └── aggregation_queries.js
+│   ├── NoSQL/
+│   │   └── aggregation_queries.js
+│   ├── Notes/README.md
+│   └── Screenshots/
 ├── Practical_9/                 ← Backup & Recovery (MySQL)
+│   ├── ERD/
+│   ├── Notes/
+│   ├── Screenshots/
+│   └── SQL/
 ├── MiniProjects/                ← Advanced Exercises & ERDs
 │   ├── ERD/
 │   ├── Notes/
@@ -58,17 +89,27 @@ Database_Management_System/
     └── SQL/
 ```
 
-Each practical typically contains:
+Each **SQL Practical** contains:
 ```
 Practical_N/
-├── ERD/           ← Entity-Relationship Diagrams
+├── ERD/              ← Entity-Relationship Diagrams
 ├── Notes/
-│   └── README.md  ← Practical description & theory
-├── Screenshots/   ← Query output screenshots
-└── SQL/           ← SQL scripts
-    ├── schema.sql ← Table creation
-    ├── seed.sql   ← Sample data insertion
-    └── analysis.sql ← Queries & analysis
+│   └── README.md     ← Practical description, theory & ER diagram
+├── Screenshots/      ← Query output screenshots
+└── SQL/              ← SQL scripts
+    ├── schema.sql    ← Table creation
+    ├── seed.sql      ← Sample data insertion
+    └── queries.sql   ← Queries & analysis
+```
+
+Each **NoSQL Practical** contains:
+```
+Practical_N/
+├── NoSQL/
+│   └── *.mongodb.js  ← MongoDB playground scripts
+├── Notes/
+│   └── README.md     ← Practical description & theory
+└── Screenshots/      ← Query output screenshots
 ```
 
 ---
@@ -138,15 +179,12 @@ mongosh
 use practicalDB
 ```
 
-**3. Load dataset and run scripts:**
+**3. Run MongoDB playground scripts:**
 ```bash
-# Import dataset
-mongoimport --db practicalDB --collection users --file dataset.json --jsonArray
+# Practical 7 - Indexing
+mongosh < Practical_7/NoSQL/practical07_playground.mongodb.js
 
-# Run indexing script
-mongosh < Practical_7/NoSQL/indexing.js
-
-# Run aggregation queries
+# Practical 8 - Aggregation
 mongosh < Practical_8/NoSQL/aggregation_queries.js
 ```
 
@@ -203,4 +241,4 @@ Second-Year Engineering Student — AI & Data Science | SPPU
 
 ---
 
-> ✅ Each practical is **modular**, **well-commented**, and structured for easy understanding and colege lab submissions.
+> ✅ Each practical is **modular**, **well-documented**, and structured for easy understanding and college lab submissions.
