@@ -15,9 +15,10 @@ The dashboard provides key insights into sales trends, product performance, and 
 
 ## 📂 Dataset
 
-* Source: Kaggle
-* Dataset: Retail Sales Dataset
-* Link: https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
+* **Source:** Kaggle
+* **Dataset:** Retail Sales Dataset
+* **Path:** `Dataset/retail_sales_dataset.csv`
+* **Link:** https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 
 ---
 
@@ -66,11 +67,14 @@ The dashboard provides key insights into sales trends, product performance, and 
 
 ## 🖼️ Dashboard Preview
 
-![Sales Dashboard](Practical_07\Dashboard_Preview.png)
+**Sales Dashboard**
+
+![Sales Dashboard](Images\Dashboard_Preview.png)
 
 
-![Sales Dashboard 2](Practical_07\Retail Sales Performance Dashboard.png)
+**Sales Dashboard 02**
 
+![Sales Dashboard 2](Images\Dashboard_Preview_02.png)
 
 
 ---
@@ -87,10 +91,13 @@ The dashboard provides key insights into sales trends, product performance, and 
 ## 📁 Project Structure
 
 ```
-Experiment_07_PowerBI_Sales/
- ├── dataset/
- ├── dashboard.pbix
- ├── images/
- │    └── sales_dashboard.png
- └── README.md
+Practical_07/
+ ├── BI_Report/
+ │    └── Practical_07.pbix
+ ├── Dataset/
+ │    └── retail_sales_dataset.csv
+ ├── Images/
+ │    ├── Dashboard_Preview.png
+ │    └── Dashboard_Preview_02.png
+ └── readme_07.md
 ```
