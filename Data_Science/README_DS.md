@@ -94,6 +94,8 @@ jupyter notebook notebook_name.ipynb
 - scikit-learn
 - matplotlib
 - seaborn
+- ipywidgets
+- tqdm
 
 ---
 

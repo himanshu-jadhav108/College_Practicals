@@ -54,7 +54,12 @@ Data_Structures/
 cd Data_Structures
 ```
 
-2. **Run any practical**:
+2. **Install required packages** (if not already installed):
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run any practical**:
 ```bash
 python Practicals/practical_name.py
 ```
@@ -81,6 +86,8 @@ Additionally, there are **[Case Studies](Case_Study/)**, **[ENTC Practicals](ENT
 ## 🛠 Dependencies
 
 - Python 3.x
+- matplotlib
+- jupyter
 
 ---
 

@@ -72,7 +72,12 @@ Artificial_Intelligence/
 cd Artificial_Intelligence
 ```
 
-2. **Run Python Scripts**:
+2. **Install required packages** (if not already installed):
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run Python Scripts**:
 ```bash
 python Basic/practical_01.py
 # or
@@ -90,6 +95,7 @@ jupyter notebook Advanced/Jupyter_Notebook/practical_01.ipynb
 
 - matplotlib
 - jupyter
+- networkx
 
 ---
 
