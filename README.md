@@ -12,6 +12,8 @@
 [![NoSQL](https://img.shields.io/badge/NoSQL-MongoDB-green?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
+[![Stars](https://img.shields.io/github/stars/himanshu-jadhav108/College_Practicals?style=social)](https://github.com/himanshu-jadhav108/College_Practicals)
+[![Forks](https://img.shields.io/github/forks/himanshu-jadhav108/College_Practicals?style=social)](https://github.com/himanshu-jadhav108/College_Practicals/network/members)
 
 ---
 
