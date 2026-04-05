@@ -1,6 +1,6 @@
 <div align="center">
 
-![College Practicals Banner](file:///C:/Users/hp/.gemini/antigravity/brain/5df93e07-bc64-4601-8b22-d91c1c7d383f/college_practicals_banner_1775395618289.png)
+![College Practicals Banner](banner.png)
 
 # 🎓 College Practicals – SPPU 2024
 
