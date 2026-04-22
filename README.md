@@ -34,6 +34,7 @@
 | **🏗️ Data Structures**             | Algorithms, Linked Lists, Trees, Graphs        | `Completed` | [Explore ↗](Data_Structures/)             |
 | **🗄️ Database Management**         | SQL Queries, PL/SQL, NoSQL Aggregation         | `Completed` | [Explore ↗](Database_Management_System/)  |
 | **💻 Object-Oriented Programming** | Java Classes, Inheritance, Design Patterns     | `Completed` | [Explore ↗](Object_Oriented_Programming/) |
+| **📈 Probability & Statistics**   | Distribution Analysis, Correlation, Case Studies | `Completed` | [Explore ↗](Probability_and_Statistics/)  |
 
 ---
 
@@ -55,7 +56,8 @@ College_Practicals/
 ├── 📊 Data_Science/                 # Preprocessing, ML, Power BI Reports
 ├── 🏗️ Data_Structures/               # C/Python-based Algorithm implementations
 ├── 🗄️ Database_Management_System/    # SQL, NoSQL, PL/SQL scripts
-└── 💻 Object_Oriented_Programming/    # Java OOP Fundamental practicals (1-8)
+├── 💻 Object_Oriented_Programming/    # Java OOP Fundamental practicals (1-8)
+└── 📈 Probability_and_Statistics/    # Distribution analysis & correlation studies
 ```
 
 ---
@@ -69,6 +71,7 @@ College_Practicals/
 | **Data Structures** |     **11+**     | Python, C/C++                  |
 | **DBMS**            |      **9**      | MySQL, MongoDB, PL/SQL         |
 | **OOP**             |      **8**      | Java (JDK 8+)                  |
+| **Prob. & Stats**   |      **2**      | Pandas, Scipy, Matplotlib      |
 
 ---
 
