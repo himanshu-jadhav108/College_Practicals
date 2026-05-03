@@ -1,0 +1,59 @@
+// 1. CLEANUP & INITIALIZATION
+db.employee_info.drop(); // Start fresh each time you run
+
+// 2. INSERTION (B)
+print("--- Inserting Seed Data ---");
+db.employee_info.insertOne({
+  emp_id: 101, 
+  name: "John Doe",
+  department: "IT", 
+  position: "Software Developer", 
+  salary: 60000
+});
+
+db.employee_info.insertMany([
+  { emp_id: 102, name: "Jane Smith", department: "HR", position: "Manager", salary: 70000 },
+  { emp_id: 103, name: "Bob Johnson", department: "IT", position: "DevOps Engineer", salary: 65000 },
+  { emp_id: 104, name: "Alice Green", department: "Finance", position: "Analyst", salary: 55000 },
+  { emp_id: 105, name: "Robert Wilson", department: "Marketing", position: "Marketing Manager", salary: 72000, skills: ["SEO", "Content Marketing", "Brand Strategy"] }
+]);
+
+// 3. READ OPERATIONS (C)
+print("\n--- All Employees ---");
+printjson(db.employee_info.find({}).toArray());
+
+print("\n--- IT Department Only ---");
+printjson(db.employee_info.find({ department: "IT" }).toArray());
+
+print("\n--- Salary > 60000 ---");
+printjson(db.employee_info.find({ salary: { $gt: 60000 } }).toArray());
+
+print("\n--- Projection (IT Dept: Name and Salary Only) ---");
+printjson(db.employee_info.find({ department: "IT" }, { _id: 0, name: 1, salary: 1 }).toArray());
+
+// 4. UPDATE OPERATIONS (D)
+print("\n--- Updating Salaries ---");
+db.employee_info.updateOne({ emp_id: 101 }, { $set: { salary: 62000 } });
+db.employee_info.updateMany({ department: "IT" }, { $mul: { salary: 1.1 } });
+db.employee_info.updateOne({ emp_id: 102 }, { $set: { skills: ["Recruitment", "Training"] } });
+
+print("Updated Records:");
+printjson(db.employee_info.find({ emp_id: { $in: [101, 102] } }).toArray());
+
+// 5. LOGICAL OPERATORS (F)
+print("\n--- Logical Operator: Finance OR (IT >= 65000) ---");
+var complexQuery = db.employee_info.find({
+  $or: [
+    { department: "Finance" },
+    { $and: [ { department: "IT" }, { salary: { $gte: 65000 } } ] }
+  ]
+}).toArray();
+printjson(complexQuery);
+
+// 6. DELETE OPERATIONS (E)
+print("\n--- Deleting Records ---");
+db.employee_info.deleteOne({ emp_id: 103 });
+db.employee_info.deleteMany({ department: "HR" });
+
+print("Final Collection State:");
+printjson(db.employee_info.find({}).toArray());
