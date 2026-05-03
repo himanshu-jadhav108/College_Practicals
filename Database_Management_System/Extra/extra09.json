@@ -1,0 +1,104 @@
+// 1. Setup and Seed Data
+db.employee_info.drop(); // Clear existing data for a fresh run
+
+db.employee_info.insertMany([
+  { emp_id: 101, name: "Alice Smith", department: "IT", position: "Developer", salary: 75000, skills: ["Java", "MongoDB"] },
+  { emp_id: 102, name: "Bob Wilson", department: "Finance", position: "Analyst", salary: 60000, skills: ["Excel", "SQL"] },
+  { emp_id: 106, name: "Mia Davis", department: "IT", position: "QA Engineer", salary: 58000, skills: ["Selenium", "Python"] },
+  { emp_id: 107, name: "Noah Brown", department: "IT", position: "Cloud Architect", salary: 90000, skills: ["AWS", "Docker"] },
+  { emp_id: 108, name: "Olivia Jones", department: "Finance", position: "Senior Analyst", salary: 57000, skills: ["Finance", "SQL"] },
+  { emp_id: 109, name: "Daniel Anderson", department: "IT", position: "Network Engineer", salary: 68000, skills: ["Cisco", "Linux"] },
+  { emp_id: 110, name: "Emma Taylor", department: "Sales", position: "Sales Executive", salary: 50000, skills: ["Communication", "CRM"] }
+]);
+
+print("--- Data Seeded Successfully ---");
+
+// 2. Aggregation — Average Salary per Department
+print("\n--- Average Salary per Department ---");
+var avgSalary = db.employee_info.aggregate([
+  {
+    $group: {
+      _id: "$department",
+      average_salary: { $avg: "$salary" },
+      total_employees: { $sum: 1 },
+      max_salary: { $max: "$salary" },
+      min_salary: { $min: "$salary" }
+    }
+  },
+  { $sort: { average_salary: -1 } },
+  {
+    $project: {
+      _id: 0,
+      department: "$_id",
+      average_salary: { $round: ["$average_salary", 2] },
+      total_employees: 1,
+      max_salary: 1,
+      min_salary: 1
+    }
+  }
+]).toArray();
+printjson(avgSalary);
+
+// 3. Aggregation — Top 3 Highest-Paid Employees
+print("\n--- Top 3 Highest-Paid Employees ---");
+var topPaid = db.employee_info.aggregate([
+  { $sort: { salary: -1 } },
+  { $limit: 3 },
+  {
+    $project: {
+      _id: 0,
+      emp_id: 1, name: 1, department: 1, position: 1, salary: 1
+    }
+  }
+]).toArray();
+printjson(topPaid);
+
+// 4. Aggregation — $match + $group Pipeline (IT Department)
+print("\n--- IT Department Stats ---");
+var itStats = db.employee_info.aggregate([
+  { $match: { department: "IT" } },
+  {
+    $group: {
+      _id: null,
+      total_salary_bill: { $sum: "$salary" },
+      head_count: { $sum: 1 },
+      avg_salary: { $avg: "$salary" }
+    }
+  },
+  { 
+    $project: { 
+      _id: 0, 
+      total_salary_bill: 1, 
+      head_count: 1,
+      avg_salary: { $round: ["$avg_salary", 2] } 
+    } 
+  }
+]).toArray();
+printjson(itStats);
+
+// 5. Aggregation — $unwind on Skills
+print("\n--- Skill Count Analysis ---");
+var skillCount = db.employee_info.aggregate([
+  { $match: { skills: { $exists: true } } },
+  { $unwind: "$skills" },
+  { $group: { _id: "$skills", count: { $sum: 1 } } },
+  { $sort: { count: -1 } }
+]).toArray();
+printjson(skillCount);
+
+// 6. Indexing
+print("\n--- Creating Indexes ---");
+db.employee_info.createIndex({ emp_id: 1 }, { unique: true });
+db.employee_info.createIndex({ department: 1, salary: -1 });
+db.employee_info.createIndex({ name: "text" });
+
+print("\n--- Current Indexes ---");
+printjson(db.employee_info.getIndexes());
+
+// 7. Explain and Drop Index
+print("\n--- Query Explanation (Index Usage) ---");
+printjson(db.employee_info.find({ department: "IT", salary: { $gt: 60000 } }).explain("executionStats"));
+
+print("\n--- Dropping Compound Index ---");
+// Dropping by name (Standard MongoDB naming convention)
+printjson(db.employee_info.dropIndex("department_1_salary_-1"));
