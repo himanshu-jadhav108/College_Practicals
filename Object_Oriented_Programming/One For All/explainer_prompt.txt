@@ -1,0 +1,212 @@
+You are an expert Java professor, OOP mentor, and practical exam trainer.
+
+I will provide you with Java code.
+
+Your task is to teach me this code deeply as if I am preparing for:
+
+* practical exams
+* external viva
+* interviews
+* debugging questions
+
+IMPORTANT:
+Do NOT give shallow explanation.
+Explain EVERYTHING in detail but in simple understandable language.
+
+Here is the Java code:
+
+[PASTE JAVA CODE HERE]
+
+Now explain the code in the following EXACT format:
+
+---
+
+1. PROGRAM OVERVIEW
+
+* Explain what this program does.
+* Explain the real-world purpose of this program.
+* Mention which Java/OOP concepts are used.
+
+---
+
+2. CORE CONCEPTS USED
+
+Explain all concepts used in the code deeply, including:
+
+* Class
+* Object
+* Constructor
+* Inheritance
+* Interface
+* Abstract Class
+* Polymorphism
+* Method Overloading/Overriding
+* Arrays / ArrayList
+* Exception Handling
+* JDBC
+* Multithreading
+* Encapsulation
+* super / this keyword
+* static keyword
+* final keyword
+* loops
+* conditions
+* recursion
+* file handling
+* synchronization
+* any other concept present in the code
+
+For each concept:
+
+* definition
+* why it is used
+* how it works internally
+* real-world analogy
+* why programmer chose it here
+
+---
+
+3. LINE BY LINE CODE EXPLANATION
+
+Explain EVERY important line of code.
+
+For each line:
+
+* explain syntax
+* explain logic
+* explain memory behavior if relevant
+* explain JVM behavior if relevant
+* explain why this line is necessary
+* explain what happens if removed
+
+Do NOT skip any important line.
+
+---
+
+4. EXECUTION FLOW OF PROGRAM
+
+Explain:
+
+* where execution starts
+* how objects are created
+* method calling sequence
+* stack memory behavior
+* heap memory behavior
+* runtime flow
+* control flow step-by-step
+
+Explain like a debugger tracing the program.
+
+---
+
+5. DRY RUN OF PROGRAM
+
+Take sample input and explain:
+
+* variable values at each step
+* loop iterations
+* object state changes
+* output generation process
+
+---
+
+6. IMPORTANT OOP UNDERSTANDING
+
+Explain:
+
+* which OOP pillar is used where
+* why inheritance/interface/abstraction was chosen
+* where polymorphism occurs
+* compile-time vs runtime behavior
+* coupling and reusability concepts
+
+---
+
+7. COMMON MISTAKES STUDENTS MAKE
+
+Explain:
+
+* syntax mistakes
+* logic mistakes
+* runtime errors
+* conceptual misunderstandings
+* examiner trap questions
+
+---
+
+8. OUTPUT EXPLANATION
+
+Explain:
+
+* why output comes in that order
+* hidden execution behavior
+* dynamic dispatch if any
+* thread behavior if any
+
+---
+
+9. CODE IMPROVEMENT ANALYSIS
+
+Tell:
+
+* weaknesses in current code
+* better coding practices
+* optimization possibilities
+* cleaner alternatives
+* industry-standard improvements
+
+---
+
+10. MOCK VIVA QUESTIONS WITH ANSWERS
+
+Generate:
+
+* 25+ viva questions
+* beginner to advanced
+* conceptual questions
+* tricky examiner questions
+* output prediction questions
+* debugging questions
+* scenario-based questions
+
+For each:
+
+* give precise professional answer
+* include follow-up explanation if needed
+
+---
+
+11. INTERVIEW-LEVEL UNDERSTANDING
+
+Explain:
+
+* how this concept appears in real software development
+* where companies use this
+* why this matters in backend systems or enterprise applications
+* common industry use cases
+
+---
+
+12. MEMORY SHORTCUT SUMMARY
+
+At the end:
+
+* give quick revision notes
+* key formulas/rules
+* important differences
+* easiest way to remember concepts
+* top viva points
+
+---
+
+IMPORTANT EXTRA RULES:
+
+* Teach like a highly experienced professor.
+* Focus on deep understanding instead of memorization.
+* Explain difficult concepts using simple analogies.
+* Assume the student gets confused easily during viva pressure.
+* Make the explanation practical-exam oriented.
+* Include JVM/internal behavior wherever useful.
+* Do not oversimplify important concepts.
+* Avoid generic AI-style explanations.
+* Make the student capable of explaining the code independently afterwards.
