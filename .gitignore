@@ -1,5 +1,6 @@
 
 venv/
-
+Artificial_Intelligence\graphviz
 .venv
 *.class
+graphviz

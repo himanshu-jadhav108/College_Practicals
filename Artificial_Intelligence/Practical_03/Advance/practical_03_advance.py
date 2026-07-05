@@ -74,7 +74,7 @@ def print_maze_with_path(maze, path):
 path = astar(maze, start, goal)
 
 if path:
-    print("✅ A* Path Found:", path)
+    print("[SUCCESS] A* Path Found:", path)
     print_maze_with_path(maze, path)
 else:
-    print("❌ No path found.")
+    print("[ERROR] No path found.")

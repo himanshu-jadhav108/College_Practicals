@@ -46,6 +46,6 @@ def backtrack():
     return None
 
 solution = backtrack()
-print("✅ Final Australia Map Coloring:")
+print("[SUCCESS] Final Australia Map Coloring:")
 for state, color in solution.items():
     print(f"{state}: {color}")

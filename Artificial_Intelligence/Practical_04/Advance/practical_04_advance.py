@@ -46,6 +46,6 @@ def backtrack():
     return None
 
 solution = backtrack()
-print("✅ Final Color Assignment:")
+print("[SUCCESS] Final Color Assignment:")
 for region, color in solution.items():
     print(f"  {region}: {color}")

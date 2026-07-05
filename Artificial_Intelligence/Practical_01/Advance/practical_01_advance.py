@@ -1,5 +1,19 @@
 # Experiment No.1 - Advanced Expert Rule-Based System (Script Version)
 
+import os
+import sys
+
+# Dynamic path injection for local Graphviz binaries
+def add_graphviz_to_path():
+    curr = os.path.dirname(os.path.abspath(__file__))
+    for _ in range(5):
+        potential_path = os.path.join(curr, "graphviz", "Graphviz-12.0.0-win64", "bin")
+        if os.path.exists(potential_path):
+            os.environ["PATH"] += os.pathsep + potential_path
+            break
+        curr = os.path.dirname(curr)
+add_graphviz_to_path()
+
 try:
     from rich.console import Console 
     from rich.table import Table

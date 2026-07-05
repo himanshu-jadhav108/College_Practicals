@@ -49,7 +49,7 @@ def minimax(b, depth, is_max, alpha, beta):
                     max_eval = max(max_eval, eval_val)
                     alpha = max(alpha, eval_val)
                     if beta <= alpha:
-                        break
+                        return max_eval
         return max_eval
     else:  # Minimizing player (Human = O)
         min_eval = math.inf
@@ -62,7 +62,7 @@ def minimax(b, depth, is_max, alpha, beta):
                     min_eval = min(min_eval, eval_val)
                     beta = min(beta, eval_val)
                     if beta <= alpha:
-                        break
+                        return min_eval
         return min_eval
 
 # Best move selector for AI
