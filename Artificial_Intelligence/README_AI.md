@@ -3,7 +3,8 @@
 > **Second-Year Engineering | AI & Data Science | Savitribai Phule Pune University**
 
 ![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-v1.x-orange?logo=scikit-learn&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-v3.x-blue?logo=networkx&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-v3.x-orange?logo=matplotlib&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-blue?logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![SPPU](https://img.shields.io/badge/University-SPPU%202024-orange)
@@ -32,42 +33,38 @@ This repository contains **Artificial Intelligence practical codes** as per the 
 Artificial_Intelligence/
 ├── README_AI.md               ← You are here
 ├── requirements.txt           ← Dependencies
-├── Basic/                     ← Simple terminal-based implementations
-│   ├── practical_01.py        ← Expert System
-│   ├── practical_02.py        ← BFS & DFS Solver
-│   ├── practical_03.py        ← A* Pathfinding
-│   ├── practical_04.py        ← CSP Map Coloring
-│   ├── practical_05.py        ← Minimax Tic-Tac-Toe
-│   └── practical_06.py        ← Alpha-Beta Pruning
-└── Advanced/                  ← Interactive & Visual implementations
-    ├── Jupyter_Notebook/      ← Visual experiments (.ipynb)
-    ├── Scripts/               ← Visual Python scripts (.py)
-    └── readme_ai_advance.md   ← Advanced documentation
+├── Practical_01/              ← Expert System (Rule-based)
+│   ├── Basic/
+│   └── Advance/
+├── Practical_02/              ← BFS & DFS Maze Solver
+│   ├── Basic/
+│   └── Advance/
+├── Practical_03/              ← A* Algorithm (Heuristic-based)
+│   ├── Basic/
+│   └── Advance/
+├── Practical_04/              ← CSP Map Coloring
+│   ├── Basic/
+│   └── Advance/
+├── Practical_05/              ← Minimax Tic-Tac-Toe
+│   ├── Basic/
+│   └── Advance/
+└── Practical_06/              ← Alpha-Beta Pruning
+    ├── Basic/
+    └── Advance/
 ```
 
 ---
 
 ## 📚 Practical List
 
-### 🔹 Basic Experiments
 | # | Title | Key Concepts |
 |---|-------|-------------|
-| 1 | [Expert System](Basic/practical_01.py) | Rule-based decision making |
-| 2 | [BFS & DFS Solver](Basic/practical_02.py) | Graph search & maze exploration |
-| 3 | [A* Algorithm](Basic/practical_03.py) | Heuristic-based pathfinding |
-| 4 | [CSP Map Coloring](Basic/practical_04.py) | Backtracking for constraint problems |
-| 5 | [Minimax Tic-Tac-Toe](Basic/practical_05.py) | Basic AI decision making |
-| 6 | [Alpha-Beta Pruning](Basic/practical_06.py) | Optimized AI pruning techniques |
-
-### 🔹 Advanced Experiments
-| # | Title | Visual Features |
-|---|-------|----------------|
-| 1 | [Expert System](Advanced/Jupyter_Notebook/practical_01.ipynb) | Interactive & visual interface |
-| 2 | [BFS & DFS Solver](Advanced/Jupyter_Notebook/practical_02.ipynb) | Animated step-by-step exploration |
-| 3 | [A* Algorithm](Advanced/Jupyter_Notebook/practical_03.ipynb) | Animated pathfinding visualization |
-| 4 | [CSP Map Coloring](Advanced/Jupyter_Notebook/practical_04.ipynb) | Real map coloring with interactive display |
-| 5 | [Minimax Tic-Tac-Toe](Advanced/Jupyter_Notebook/practical_05.ipynb) | Animated moves with AI evaluation |
-| 6 | [Alpha-Beta Pruning](Advanced/Jupyter_Notebook/practical_06.ipynb) | Pruning visualizations and decision trees |
+| 1 | [Expert System](Practical_01/) | Rule-based decision making |
+| 2 | [BFS & DFS Solver](Practical_02/) | Graph search & maze exploration |
+| 3 | [A* Algorithm](Practical_03/) | Heuristic-based pathfinding |
+| 4 | [CSP Map Coloring](Practical_04/) | Backtracking for constraint problems |
+| 5 | [Minimax Tic-Tac-Toe](Practical_05/) | Basic AI decision making |
+| 6 | [Alpha-Beta Pruning](Practical_06/) | Optimized AI pruning techniques |
 
 ---
 
@@ -78,23 +75,21 @@ Artificial_Intelligence/
 cd Artificial_Intelligence
 ```
 
-2. **Install dependencies**:
+2. **Install requirements**:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run Python Scripts**:
+3. **Run Python Scripts / Notebooks**:
 ```bash
 # Basic implementation
-python Basic/practical_02.py
+python Practical_02/Basic/practical_02_basic.py
 
-# Advanced implementation
-python Advanced/Scripts/practical_02.py
-```
+# Advanced implementation (Python script)
+python Practical_02/Advance/practical_02_advance.py
 
-4. **Launch Jupyter Notebooks**:
-```bash
-jupyter notebook Advanced/Jupyter_Notebook/practical_02.ipynb
+# Advanced implementation (Jupyter Notebook)
+jupyter notebook Practical_02/Advance/practical_02_advance.ipynb
 ```
 
 ---

@@ -96,8 +96,8 @@ pip install -r requirements.txt
 
 ```bash
 # Example: Run AI Graph Search
-cd Artificial_Intelligence/Basic
-python practical_02.py
+cd Artificial_Intelligence/Practical_02/Basic
+python practical_02_basic.py
 ```
 
 ---
