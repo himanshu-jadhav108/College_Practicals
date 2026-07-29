@@ -17,12 +17,12 @@ This repository contains **Natural Language Processing (NLP) practical codes and
 
 ### Key Focus Areas
 
-| Area | Topics |
-|------|--------|
-| **Text Preprocessing** | Tokenization, Stemming, Lemmatization, Stop-word removal |
-| **Vectorization** | Bag of Words (BoW), TF-IDF, Word2Vec embeddings |
-| **Sequence Models & Classification** | Text Classification, Sentiment Analysis, Naive Bayes |
-| **Advanced NLP** | Named Entity Recognition (NER), POS Tagging, Transformers |
+| Area                                 | Topics                                                    |
+| ------------------------------------ | --------------------------------------------------------- |
+| **Text Preprocessing**               | Tokenization, Stemming, Lemmatization, Stop-word removal  |
+| **Vectorization**                    | Bag of Words (BoW), TF-IDF, Word2Vec embeddings           |
+| **Sequence Models & Classification** | Text Classification, Sentiment Analysis, Naive Bayes      |
+| **Advanced NLP**                     | Named Entity Recognition (NER), POS Tagging, Transformers |
 
 ---
 
@@ -32,31 +32,47 @@ This repository contains **Natural Language Processing (NLP) practical codes and
 Natural_Language_Processing/
 ├── README.md                  ← You are here
 ├── requirements.txt           ← NLP Python dependencies
-├── Practical_01/              ← Text Preprocessing & Tokenization
-├── Practical_02/              ← Text Representation (TF-IDF, Word Embeddings)
-└── Practical_03/              ← Sentiment Analysis & Text Classification
+├── Practical_01/              ← Basic / Advance
+├── Practical_02/              ← Basic / Advance
+├── Practical_03/              ← Basic / Advance
+├── Practical_04/              ← Basic / Advance
+├── Practical_05/              ← Basic / Advance
+├── Practical_06/              ← Basic / Advance
+├── Practical_07/              ← Basic / Advance
+├── Practical_08/              ← Basic / Advance
+├── Practical_09/              ← Basic / Advance
+└── Practical_10/              ← Basic / Advance
 ```
 
 ---
 
 ## 📚 Practical List
 
-| # | Title | Key Concepts | Status |
-|---|-------|-------------|--------|
-| 1 | **Text Preprocessing Pipeline** | Tokenization, Normalization, Lemmatization using NLTK/spaCy | `In Progress` |
-| 2 | **Feature Extraction & Embeddings** | TF-IDF Vectorization, N-grams, Word2Vec | `In Progress` |
-| 3 | **Sentiment & Text Classification** | Naive Bayes Classifier, Sentiment Intensity Analysis | `In Progress` |
+| #   | Title            | Key Concepts                    | Status      |
+| --- | ---------------- | ------------------------------- | ----------- |
+| 1   | **Practical 01** | Basic & Advance implementations | `Completed` |
+| 2   | **Practical 02** | Basic & Advance implementations | `Completed` |
+| 3   | **Practical 03** | Basic & Advance implementations | `Planned`   |
+| 4   | **Practical 04** | Basic & Advance implementations | `Planned`   |
+| 5   | **Practical 05** | Basic & Advance implementations | `Planned`   |
+| 6   | **Practical 06** | Basic & Advance implementations | `Planned`   |
+| 7   | **Practical 07** | Basic & Advance implementations | `Planned`   |
+| 8   | **Practical 08** | Basic & Advance implementations | `Planned`   |
+| 9   | **Practical 09** | Basic & Advance implementations | `Planned`   |
+| 10  | **Practical 10** | Basic & Advance implementations | `Planned`   |
 
 ---
 
 ## 🚀 Getting Started
 
 1. **Navigate to the NLP folder**:
+
 ```bash
 cd Natural_Language_Processing
 ```
 
 2. **Install dependencies**:
+
 ```bash
 pip install -r requirements.txt
 ```
