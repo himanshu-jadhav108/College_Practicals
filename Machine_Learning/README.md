@@ -17,12 +17,12 @@ This repository contains **Machine Learning practical codes, Jupyter Notebooks, 
 
 ### Key Focus Areas
 
-| Area | Topics |
-|------|--------|
-| **Supervised Learning** | Linear/Logistic Regression, Decision Trees, Random Forest, SVM |
-| **Unsupervised Learning** | K-Means Clustering, Hierarchical Clustering, PCA |
-| **Model Evaluation** | Confusion Matrix, ROC-AUC, Cross-Validation, Hyperparameter Tuning |
-| **Feature Engineering** | Data Imputation, Scaling, Encoding, Feature Selection |
+| Area                      | Topics                                                             |
+| ------------------------- | ------------------------------------------------------------------ |
+| **Supervised Learning**   | Linear/Logistic Regression, Decision Trees, Random Forest, SVM     |
+| **Unsupervised Learning** | K-Means Clustering, Hierarchical Clustering, PCA                   |
+| **Model Evaluation**      | Confusion Matrix, ROC-AUC, Cross-Validation, Hyperparameter Tuning |
+| **Feature Engineering**   | Data Imputation, Scaling, Encoding, Feature Selection              |
 
 ---
 
@@ -32,31 +32,47 @@ This repository contains **Machine Learning practical codes, Jupyter Notebooks, 
 Machine_Learning/
 ├── README.md                  ← You are here
 ├── requirements.txt           ← Python ML dependencies
-├── Practical_01/              ← Linear & Logistic Regression Models
-├── Practical_02/              ← Classification (Decision Trees, Random Forest, SVM)
-└── Practical_03/              ← Unsupervised Clustering & Dimensionality Reduction (PCA)
+├── Practical_01/              ← Basic / Advance
+├── Practical_02/              ← Basic / Advance
+├── Practical_03/              ← Basic / Advance
+├── Practical_04/              ← Basic / Advance
+├── Practical_05/              ← Basic / Advance
+├── Practical_06/              ← Basic / Advance
+├── Practical_07/              ← Basic / Advance
+├── Practical_08/              ← Basic / Advance
+├── Practical_09/              ← Basic / Advance
+└── Practical_10/              ← Basic / Advance
 ```
 
 ---
 
 ## 📚 Practical List
 
-| # | Title | Key Concepts | Status |
-|---|-------|-------------|--------|
-| 1 | **Regression Analysis** | Simple/Multiple Linear Regression, Evaluation Metrics (MSE, R2) | `In Progress` |
-| 2 | **Classification Algorithms** | Decision Trees, Random Forest Classifier, Confusion Matrix | `In Progress` |
-| 3 | **Clustering & PCA** | K-Means, Elbow Method, Principal Component Analysis | `In Progress` |
+| #   | Title            | Key Concepts                    | Status     |
+| --- | ---------------- | ------------------------------- | ---------- |
+| 1   | **Practical 01** | Basic & Advance implementations | `Complete` |
+| 2   | **Practical 02** | Basic & Advance implementations | `Complete` |
+| 3   | **Practical 03** | Basic & Advance implementations | `Planned`  |
+| 4   | **Practical 04** | Basic & Advance implementations | `Planned`  |
+| 5   | **Practical 05** | Basic & Advance implementations | `Planned`  |
+| 6   | **Practical 06** | Basic & Advance implementations | `Planned`  |
+| 7   | **Practical 07** | Basic & Advance implementations | `Planned`  |
+| 8   | **Practical 08** | Basic & Advance implementations | `Planned`  |
+| 9   | **Practical 09** | Basic & Advance implementations | `Planned`  |
+| 10  | **Practical 10** | Basic & Advance implementations | `Planned`  |
 
 ---
 
 ## 🚀 Getting Started
 
 1. **Navigate to the Machine Learning folder**:
+
 ```bash
 cd Machine_Learning
 ```
 
 2. **Install dependencies**:
+
 ```bash
 pip install -r requirements.txt
 ```
