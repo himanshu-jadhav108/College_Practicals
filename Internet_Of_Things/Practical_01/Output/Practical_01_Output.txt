@@ -1,0 +1,7 @@
+IoT Sensor Connectivity Started
+ADC: 154 | Voltage: 0.75 V | Temperature: 25.3 C
+ADC: 155 | Voltage: 0.76 V | Temperature: 25.8 C
+ADC: 154 | Voltage: 0.75 V | Temperature: 25.3 C
+ADC: 156 | Voltage: 0.76 V | Temperature: 26.2 C
+ADC: 155 | Voltage: 0.76 V | Temperature: 25.8 C
+ADC: 154 | Voltage: 0.75 V | Temperature: 25.3 C
