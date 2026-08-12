@@ -1,0 +1,7 @@
+IR Obstacle Detection Started
+No Obstacle - LED OFF
+No Obstacle - LED OFF
+Obstacle Detected - LED ON
+Obstacle Detected - LED ON
+Obstacle Detected - LED ON
+No Obstacle - LED OFF
