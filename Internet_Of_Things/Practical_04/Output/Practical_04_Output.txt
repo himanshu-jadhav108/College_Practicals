@@ -1,0 +1,8 @@
+Gas Leakage Detection System Started
+System Ready...
+Gas Level: 182 -> Gas Level Normal
+Gas Level: 190 -> Gas Level Normal
+Gas Level: 215 -> Gas Level Normal
+Gas Level: 468 -> WARNING! Gas Leakage Detected!
+Gas Level: 612 -> WARNING! Gas Leakage Detected!
+Gas Level: 377 -> Gas Level Normal
