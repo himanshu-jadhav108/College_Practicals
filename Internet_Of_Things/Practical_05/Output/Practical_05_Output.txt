@@ -1,0 +1,4 @@
+RFID Reader Ready. Place a tag near the reader...
+Tag UID: 4A 7F 2C 91
+Tag UID: B3 19 E0 5D
+Tag UID: 8C 42 1B 7E
