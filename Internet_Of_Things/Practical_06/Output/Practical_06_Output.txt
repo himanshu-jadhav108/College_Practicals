@@ -1,0 +1,14 @@
+Dual-Arduino Serial Transmission Output:
+Server received Temp: 27.5
+Server received Temp: 28.1
+Server received Temp: 27.8
+Server received Temp: 28.3
+
+HTTP REST Transmission Output:
+Server listening on http://127.0.0.1:8080
+[07:16:09] Server received -> {'device_id': 'node01', 'reading_no': 1, 'temperature': 27.5}
+[07:16:10] Server received -> {'device_id': 'node01', 'reading_no': 2, 'temperature': 28.1}
+[07:16:11] Server received -> {'device_id': 'node01', 'reading_no': 3, 'temperature': 27.8}
+[07:16:12] Server received -> {'device_id': 'node01', 'reading_no': 4, 'temperature': 28.3}
+[07:16:13] Server received -> {'device_id': 'node01', 'reading_no': 5, 'temperature': 27.9}
+Transmission complete
