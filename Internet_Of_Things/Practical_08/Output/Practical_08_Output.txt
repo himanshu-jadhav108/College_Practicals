@@ -1,0 +1,31 @@
+======================================================================
+PRACTICAL 08: REAL-TIME TEMPERATURE DATA COLLECTION & ML PREDICTION
+MODEL EVALUATION & FORECAST SUMMARY
+======================================================================
+Model Type: Ordinary Least Squares (OLS) Linear Regression
+Feature: Time Index (minute) -> Target: Temperature (°C)
+
+Regression Parameters:
+  - Slope (Coefficient) : +0.1248 °C/min
+  - Intercept (Base)     : 24.9621 °C
+  - Regression Formula   : T(t) = 24.9621 + 0.1248 * t
+
+Validation Performance (Test Set: N=6 samples):
+  - Mean Absolute Error (MAE) : 0.1824 °C
+  - Root Mean Squared Error   : 0.2115 °C
+  - Coefficient of Det. (R²)  : 0.9842 (98.4% variance explained)
+
+Future Multi-Step Forecast (Next 6 Minutes):
+  +----------------+--------------------+------------------------+
+  | Time (Minute)  | Projected Temp (°C)| Confidence Interval 95%|
+  +----------------+--------------------+------------------------+
+  | Minute 30      | 28.71 °C           | [28.32 °C - 29.10 °C]  |
+  | Minute 31      | 28.83 °C           | [28.44 °C - 29.22 °C]  |
+  | Minute 32      | 28.96 °C           | [28.56 °C - 29.35 °C]  |
+  | Minute 33      | 29.08 °C           | [28.68 °C - 29.48 °C]  |
+  | Minute 34      | 29.21 °C           | [28.80 °C - 29.61 °C]  |
+  | Minute 35      | 29.33 °C           | [28.92 °C - 29.74 °C]  |
+  +----------------+--------------------+------------------------+
+
+Execution Status: PASS (Plot saved to Output/Practical_08_Plot.png)
+======================================================================
