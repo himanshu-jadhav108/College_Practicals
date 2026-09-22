@@ -1,5 +1,30 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
+# ==============================================================================
+# Machine Learning (ML) Practicals & Advanced Laboratory Suite
+# Virtual Environment Dependencies Specification
+# Author: Himanshu Jadhav (Roll No: TE-32)
+# Target Environment: Python 3.10+ (Windows / Linux / macOS)
+# ==============================================================================
+
+# Core Scientific Computing & Data Structures
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning, Feature Engineering & Statistical Modeling
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Data Visualization & Exploratory Analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Tabular Formatting, Diagnostics & Progress Tracking
+tabulate>=0.9.0
+tqdm>=4.66.0
+
+# Interactive Jupyter Notebook Runtime & Export
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+nbformat>=5.9.0
+nbconvert>=7.10.0
