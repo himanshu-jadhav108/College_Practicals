@@ -1,0 +1,20 @@
+Stored SHA-256 hash: 6a47130b2bdb947c9b08a39174aa940d...
+=== Smart Sensor Login ===
+Enter password: wrong1
+Access Denied (2 attempts left)
+Enter password: admin
+Access Denied (1 attempts left)
+Enter password: IoT@123
+Access Granted
+Sensor Data: {'temperature': 29.3, 'humidity': 51.9}
+
+--- Test 2: Failed Login & Lockout ---
+Stored SHA-256 hash: 6a47130b2bdb947c9b08a39174aa940d...
+=== Smart Sensor Login ===
+Enter password: abc
+Access Denied (2 attempts left)
+Enter password: xyz
+Access Denied (1 attempts left)
+Enter password: 12345
+Access Denied (0 attempts left)
+Account locked: too many failed attempts
