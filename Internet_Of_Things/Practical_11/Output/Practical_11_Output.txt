@@ -1,0 +1,19 @@
+Model accuracy: 1.0
+
+[Device] Packet 1 encrypted: Iw0KCAkHCAoDCgIJBQ8KCg4J...
+[Cloud] Decrypted: Temp = 28.3C, Gas = 283 -> SAFE
+
+[Device] Packet 2 encrypted: Iw0KCAkHCAoDCgIJBQ8KCg4J...
+[Cloud] Decrypted: Temp = 30.7C, Gas = 635 -> ALERT: UNSAFE
+
+[Device] Packet 3 encrypted: Iw0KCAkHCAoDCgIJBQ8KCg4J...
+[Cloud] Decrypted: Temp = 35.3C, Gas = 217 -> SAFE
+
+[Device] Packet 4 encrypted: Iw0KCAkHCAoDCgIJBQ8KCg4J...
+[Cloud] Decrypted: Temp = 34.9C, Gas = 630 -> ALERT: UNSAFE
+
+[Device] Packet 5 encrypted: Iw0KCAkHCAoDCgIJBQ8KCg4J...
+[Cloud] Decrypted: Temp = 28.7C, Gas = 389 -> SAFE
+
+[Device] Packet 6 encrypted: Iw0KCAkHCAoDCgIJBQ8KCg4J...
+[Cloud] Decrypted: Temp = 27.5C, Gas = 631 -> ALERT: UNSAFE
