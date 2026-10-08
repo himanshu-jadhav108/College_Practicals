@@ -1,0 +1,90 @@
+{
+  "Attack on Titan": {
+    "genre": "Action",
+    "plot": "In a world where giant humanoid Titans prey on humanity young Eren Yeager joins the elite Survey Corps after his mother is devoured. He discovers he can transform into a Titan himself and fights to reclaim the walls from the monsters."
+  },
+  "Death Note": {
+    "genre": "Thriller",
+    "plot": "High school student Light Yagami finds a supernatural notebook that kills anyone whose name is written in it. He uses it to eliminate criminals becoming the vigilante Kira while genius detective L pursues him relentlessly."
+  },
+  "Fullmetal Alchemist Brotherhood": {
+    "genre": "Adventure",
+    "plot": "Brothers Edward and Alphonse Elric use alchemy to try to resurrect their dead mother losing body parts in the process. They search for the Philosophers Stone to restore themselves while uncovering a dark government conspiracy."
+  },
+  "Demon Slayer": {
+    "genre": "Action",
+    "plot": "After his family is slaughtered and his sister Nezuko turned into a demon kind-hearted Tanjiro Kamado trains to become a Demon Slayer to find a cure and avenge his family."
+  },
+  "Steins;Gate": {
+    "genre": "Sci-Fi",
+    "plot": "Self-proclaimed mad scientist Rintaro Okabe discovers that his microwave can send text messages to the past. He and his lab members inadvertently alter the timeline attracting dangerous attention from shadowy organisations."
+  },
+  "Naruto": {
+    "genre": "Adventure",
+    "plot": "Orphan Naruto Uzumaki dreams of becoming Hokage the leader of his village. He carries a fearsome nine-tailed fox spirit and overcomes rejection and hardship through hard work and friendship."
+  },
+  "One Piece": {
+    "genre": "Adventure",
+    "plot": "Rubber-bodied Monkey D. Luffy assembles a crew of pirates to find the legendary treasure One Piece and become King of the Pirates exploring a vast ocean world filled with Devil Fruits and Marines."
+  },
+  "Neon Genesis Evangelion": {
+    "genre": "Sci-Fi",
+    "plot": "In 2015 teenager Shinji Ikari is forced by his estranged father to pilot a giant biomechanical mech called an Evangelion to fight mysterious beings called Angels threatening to destroy humanity."
+  },
+  "Hunter x Hunter": {
+    "genre": "Adventure",
+    "plot": "Young Gon Freecss learns his presumed-dead father is actually a legendary Hunter and sets out to become one himself forming deep bonds and confronting increasingly complex moral challenges."
+  },
+  "Sword Art Online": {
+    "genre": "Sci-Fi",
+    "plot": "Ten thousand players are trapped inside a virtual reality MMORPG where death in the game means death in real life. Solo player Kirito must fight to clear all 100 floors and free everyone."
+  },
+  "My Hero Academia": {
+    "genre": "Action",
+    "plot": "In a world where most people have superpowers called Quirks powerless Izuku Midoriya inherits the ability of the greatest hero and enrolls in a prestigious high school for aspiring heroes."
+  },
+  "Cowboy Bebop": {
+    "genre": "Sci-Fi",
+    "plot": "In 2071 bounty hunters Spike Jet and their eccentric crew travel the solar system aboard the Bebop chasing criminals for money while each confronting their troubled pasts."
+  },
+  "Your Lie in April": {
+    "genre": "Romance",
+    "plot": "Piano prodigy Kousei Arima loses the ability to hear his own playing after his mother dies. Encountering the vibrant violinist Kaori Miyazono reawakens his passion for music and life."
+  },
+  "Dragon Ball Z": {
+    "genre": "Action",
+    "plot": "Saiyan warrior Goku defends Earth from increasingly powerful alien threats including the tyrant Frieza and bio-engineered Cell while pushing the limits of human and Saiyan power."
+  },
+  "Violet Evergarden": {
+    "genre": "Drama",
+    "plot": "Former child soldier Violet Evergarden becomes an Auto Memory Doll who helps people express their feelings in letters while trying to understand her own emotions and the final words of her beloved Major."
+  },
+  "Code Geass": {
+    "genre": "Thriller",
+    "plot": "Exiled prince Lelouch vi Britannia gains the power of Geass which compels anyone to obey him using it to lead a rebellion against the Britannia Empire that conquered Japan."
+  },
+  "Vinland Saga": {
+    "genre": "Action",
+    "plot": "Young Viking Thorfinn witnesses his father killed by the mercenary Askeladd and swears revenge fighting his way through brutal medieval war to find his destiny."
+  },
+  "Anohana": {
+    "genre": "Drama",
+    "plot": "The ghost of Meiko Honma appears to her childhood friend Jinta asking him to fulfil her forgotten wish so she can move on forcing their estranged friend group to reconcile hidden grief."
+  },
+  "Tokyo Revengers": {
+    "genre": "Thriller",
+    "plot": "Loser Takemichi Hanagaki discovers he can leap back to his middle school days and tries to prevent the deaths of people he loves by changing the course of a dangerous delinquent gang."
+  },
+  "Toradora": {
+    "genre": "Romance",
+    "plot": "Hot-tempered Taiga Aisaka and intimidating Ryuuji Takasu form an unlikely alliance to help each other get closer to their respective crushes. As they spend more time together their feelings for each other slowly begin to change."
+  },
+  "Clannad After Story": {
+    "genre": "Romance",
+    "plot": "Continuing from Clannad Tomoya Okazaki and Nagisa Furukawa navigate adult life together facing hardship loss and the true meaning of family. Widely regarded as the most emotionally devastating romance anime ever made."
+  },
+  "Kaguya-sama Love is War": {
+    "genre": "Romance",
+    "plot": "Student council president Miyuki Shirogane and vice president Kaguya Shinomiya are secretly in love but too proud to confess first creating elaborate psychological mind games to force the other to confess."
+  }
+}
