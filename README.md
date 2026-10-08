@@ -41,7 +41,7 @@
 | **🗄️ Database Management**         | Relational Schemas, Complex SQL Queries, PL/SQL Stored Procedures & Triggers, NoSQL MongoDB Pipelines                 |    **9 Practicals & Mini Projects**     | `Completed` | [Explore ↗](Database_Management_System/)  |
 | **💻 Object-Oriented Programming** | Core Java Architecture, Inheritance, Polymorphism, Interfaces, Exception Handling, OOP Design Patterns                |    **10 Practicals & Mini Project**     | `Completed` | [Explore ↗](Object_Oriented_Programming/) |
 | **📈 Probability & Statistics**    | Probability Distributions, Hypothesis Testing, Correlation & Variance Analysis, Real-World Case Studies               |    **2 Comprehensive Case Studies**     | `Completed` | [Explore ↗](Probability_and_Statistics/)  |
-| **🌐 Internet of Things**          | Microcontroller Architectures, GPIO Sensor Interfacing, Actuation, Telemetry Protocols & Cloud Integration            |       **Hardware Lab Practicals**       | `Completed` |     [Explore ↗](Internet_Of_Things/)      |
+| **🌐 Internet of Things**          | Embedded Hardware (Arduino UNO, TMP36, MQ-2, RFID MFRC522), UART & REST Telemetry, Edge Cleaning, Sensor ML & Privacy AIoT Capstone | **11 Practicals & Capstone Mini Project** | `Completed` |     [Explore ↗](Internet_Of_Things/)      |
 | **🧠 Machine Learning**            | Supervised & Unsupervised Learning, OLS, Polynomials, SVM, DBSCAN, Ensembles (Random Forest, Boosting), Grid World RL |   **11 Practicals** _(26 Notebooks)_    | `Completed` |      [Explore ↗](Machine_Learning/)       |
 | **🗣️ Natural Language Processing** | Linguistic Preprocessing, Regex/DFA, Vector Space Models, N-grams, NER, Transformers & AniSense Capstone Project      |  **10 Practicals + Capstone Project**   | `Completed` | [Explore ↗](Natural_Language_Processing/) |
 
@@ -57,6 +57,7 @@
 - 📐 **Enterprise-Grade Database Scripts** – Full relational modeling in MySQL/PostgreSQL alongside document-oriented aggregation pipelines in MongoDB.
 - 🎮 **Applied Capstone & Mini-Projects** – Features real-world projects such as **AniSense** (Anime Sentiment & Hybrid Recommendation Engine), **The Shrine Trial** (Reinforcement Learning Grid World with Q-Learning and SARSA), and interactive Business Intelligence dashboards.
 - 🏫 **100% SPPU Syllabus Alignment** – Structured specifically according to the Savitribai Phule Pune University (SPPU) Third-Year / Final-Year Engineering curriculum.
+- 🌐 **Comprehensive IoT & Edge-to-Cloud Hardware Suite** – Complete end-to-end embedded laboratory featuring Arduino UNO sensor interfacing (TMP36, IR Obstacle, MQ-2 Gas, MFRC522 RFID), dual-node UART & HTTP REST device-to-server telemetry, edge data preprocessing, ML temperature forecasting, cryptographic access control (SHA-256), Privacy-by-Design thresholding, and a full Capstone AIoT Mini Project with an official 22-page print-ready master submission report.
 
 ---
 
@@ -70,7 +71,7 @@ College_Practicals/
 ├── 🗄️ Database_Management_System/    # SQL DDL/DML, PL/SQL Procedures/Triggers, NoSQL MongoDB & Mini Projects
 ├── 💻 Object_Oriented_Programming/  # Java OOP fundamentals (Practicals 1-10), Design Patterns & Mini Project
 ├── 📈 Probability_and_Statistics/    # Distribution analysis, Correlation, Hypothesis testing & Unit 3-4 Case Studies
-├── 🌐 Internet_Of_Things/           # GPIO sensor interfacing, Microcontrollers (ESP/Arduino) & MQTT Telemetry
+├── 🌐 Internet_Of_Things/           # 11 Practicals, 5 Notebooks, Hardware Ino, 22-Page Master PDF Report & AIoT Mini Project
 ├── 🧠 Machine_Learning/             # 11 Practicals (26 Dual-Track Notebooks): Regressions, SVM, DBSCAN, Ensembles & RL
 └── 🗣️ Natural_Language_Processing/  # 10 Practicals (Dual-Track) + AniSense Capstone Recommendation Engine
 ```
@@ -87,7 +88,7 @@ College_Practicals/
 | **DBMS**                        |     **9 Practicals**     |       20+ Scripts       | MySQL, PostgreSQL, MongoDB, PL/SQL      | Relational Normalization, Indexing, Triggers, Aggregation Pipelines                  |
 | **Object-Oriented Programming** |    **10 Practicals**     |    25+ Java Classes     | Java (JDK 8+), Eclipse / IntelliJ       | Polymorphism, Custom Exceptions, Multithreading, Banking/ATM Simulations             |
 | **Probability & Statistics**    |    **2 Case Studies**    | Comprehensive Notebooks | Pandas, SciPy, Matplotlib               | Real-World Empirical Distributions, Central Limit Theorem, Hypothesis Testing        |
-| **Internet of Things**          |    **Hardware Labs**     | Embedded Code & Guides  | C/C++, Arduino IDE, Python, MQTT        | Sensor Interfacing, Cloud Telemetry, Actuator Automation                             |
+| **Internet of Things**          | **11 Practicals & Mini Project** | 5 Notebooks + 11 Ino/Scripts + 22p PDF | C/C++, Arduino IDE, pySerial, Pandas, Scikit-Learn | Sensor Interfacing (TMP36, MQ-2, RFID), Device Protocols, ML Forecasting & Capstone AIoT Mini Project |
 | **Machine Learning**            |    **11 Practicals**     |    **26 Notebooks**     | Scikit-Learn, NumPy, SciPy, Statsmodels | Dual-Track (Basic & Advance), Bias-Variance Diagnostics, GridSearchCV, Grid World RL |
 | **Natural Language Processing** |    **10 Practicals**     |    **14 Notebooks**     | NLTK, spaCy, PyTorch, Transformers      | Dual-Track (Basic & Advance), Seq2Seq Summarization, AniSense Capstone Project       |
 
@@ -139,6 +140,11 @@ cd ../Natural_Language_Processing
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 jupyter notebook
+
+# Example: Running Internet of Things (IoT) Lab & Notebooks
+cd ../Internet_Of_Things
+pip install pyserial pandas scikit-learn matplotlib cryptography
+jupyter notebook
 ```
 
 ---
@@ -155,7 +161,7 @@ jupyter notebook
 | **Data Engineering & Manipulation**  | `NumPy`, `Pandas`, `JSON`, `CSV / TSV / Parquet`                               |
 | **Visualization & Reporting**        | `Matplotlib`, `Seaborn`, `Plotly`, `NetworkX`, `Microsoft Power BI`            |
 | **Databases & Query Systems**        | `MySQL`, `PostgreSQL`, `MongoDB (NoSQL)`, `PL/SQL`                             |
-| **Hardware & IoT Telemetry**         | `ESP8266 / ESP32`, `Arduino Uno`, `MQTT Protocol`, `GPIO Sensors`              |
+| **Hardware & IoT Telemetry**         | `Arduino Uno`, `ESP8266 / ESP32`, `TMP36`, `MQ-2`, `RFID MFRC522`, `pySerial`, `HTTP REST`, `Cryptography (SHA-256 / AES)` |
 | **Interactive Environments**         | `Jupyter Notebook`, `JupyterLab`, `VS Code`, `Google Colab`                    |
 
 </div>
