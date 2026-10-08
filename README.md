@@ -33,17 +33,17 @@
 
 ## 📌 Subject Navigation
 
-| Subject                            | Curriculum Focus & Highlights                                                                                         |           Modules / Projects            |   Status    |                 Explorer                  |
-| :--------------------------------- | :-------------------------------------------------------------------------------------------------------------------- | :-------------------------------------: | :---------: | :---------------------------------------: |
-| **🤖 Artificial Intelligence**     | Uninformed/Informed Search (BFS, DFS, A\*), Minimax Game Playing, Alpha-Beta Pruning, Expert Systems                  | **6 Practicals** _(12 Implementations)_ | `Completed` |   [Explore ↗](Artificial_Intelligence/)   |
-| **📊 Data Science**                | Advanced Preprocessing, Exploratory Data Analysis (EDA), Statistical Modeling, Interactive Power BI Dashboards        |            **8 Practicals**             | `Completed` |        [Explore ↗](Data_Science/)         |
-| **🏗️ Data Structures**             | C & Python-based Linear/Non-linear structures, Linked Lists, Trees, Graphs, Sorting, Algorithm Case Studies           |    **11+ Practicals & Mini Project**    | `Completed` |       [Explore ↗](Data_Structures/)       |
-| **🗄️ Database Management**         | Relational Schemas, Complex SQL Queries, PL/SQL Stored Procedures & Triggers, NoSQL MongoDB Pipelines                 |    **9 Practicals & Mini Projects**     | `Completed` | [Explore ↗](Database_Management_System/)  |
-| **💻 Object-Oriented Programming** | Core Java Architecture, Inheritance, Polymorphism, Interfaces, Exception Handling, OOP Design Patterns                |    **10 Practicals & Mini Project**     | `Completed` | [Explore ↗](Object_Oriented_Programming/) |
-| **📈 Probability & Statistics**    | Probability Distributions, Hypothesis Testing, Correlation & Variance Analysis, Real-World Case Studies               |    **2 Comprehensive Case Studies**     | `Completed` | [Explore ↗](Probability_and_Statistics/)  |
+| Subject                            | Curriculum Focus & Highlights                                                                                                       |            Modules / Projects             |   Status    |                 Explorer                  |
+| :--------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------: | :---------: | :---------------------------------------: |
+| **🤖 Artificial Intelligence**     | Uninformed/Informed Search (BFS, DFS, A\*), Minimax Game Playing, Alpha-Beta Pruning, Expert Systems                                |  **6 Practicals** _(12 Implementations)_  | `Completed` |   [Explore ↗](Artificial_Intelligence/)   |
+| **📊 Data Science**                | Advanced Preprocessing, Exploratory Data Analysis (EDA), Statistical Modeling, Interactive Power BI Dashboards                      |             **8 Practicals**              | `Completed` |        [Explore ↗](Data_Science/)         |
+| **🏗️ Data Structures**             | C & Python-based Linear/Non-linear structures, Linked Lists, Trees, Graphs, Sorting, Algorithm Case Studies                         |     **11+ Practicals & Mini Project**     | `Completed` |       [Explore ↗](Data_Structures/)       |
+| **🗄️ Database Management**         | Relational Schemas, Complex SQL Queries, PL/SQL Stored Procedures & Triggers, NoSQL MongoDB Pipelines                               |     **9 Practicals & Mini Projects**      | `Completed` | [Explore ↗](Database_Management_System/)  |
+| **💻 Object-Oriented Programming** | Core Java Architecture, Inheritance, Polymorphism, Interfaces, Exception Handling, OOP Design Patterns                              |     **10 Practicals & Mini Project**      | `Completed` | [Explore ↗](Object_Oriented_Programming/) |
+| **📈 Probability & Statistics**    | Probability Distributions, Hypothesis Testing, Correlation & Variance Analysis, Real-World Case Studies                             |     **2 Comprehensive Case Studies**      | `Completed` | [Explore ↗](Probability_and_Statistics/)  |
 | **🌐 Internet of Things**          | Embedded Hardware (Arduino UNO, TMP36, MQ-2, RFID MFRC522), UART & REST Telemetry, Edge Cleaning, Sensor ML & Privacy AIoT Capstone | **11 Practicals & Capstone Mini Project** | `Completed` |     [Explore ↗](Internet_Of_Things/)      |
-| **🧠 Machine Learning**            | Supervised & Unsupervised Learning, OLS, Polynomials, SVM, DBSCAN, Ensembles (Random Forest, Boosting), Grid World RL |   **11 Practicals** _(26 Notebooks)_    | `Completed` |      [Explore ↗](Machine_Learning/)       |
-| **🗣️ Natural Language Processing** | Linguistic Preprocessing, Regex/DFA, Vector Space Models, N-grams, NER, Transformers & AniSense Capstone Project      |  **10 Practicals + Capstone Project**   | `Completed` | [Explore ↗](Natural_Language_Processing/) |
+| **🧠 Machine Learning**            | Supervised & Unsupervised Learning, OLS, Polynomials, SVM, DBSCAN, Ensembles (Random Forest, Boosting), Grid World RL               |    **11 Practicals** _(26 Notebooks)_     | `Completed` |      [Explore ↗](Machine_Learning/)       |
+| **🗣️ Natural Language Processing** | Linguistic Preprocessing, Regex/DFA, Vector Space Models, N-grams, NER, Transformers & AniSense Capstone Project                    |   **10 Practicals + Capstone Project**    | `Completed` | [Explore ↗](Natural_Language_Processing/) |
 
 ---
 
@@ -65,32 +65,32 @@
 
 ```text
 College_Practicals/
-├── 🤖 Artificial_Intelligence/      # Dual-track implementations: BFS, DFS, A*, Minimax, Alpha-Beta, Expert Systems
-├── 📊 Data_Science/                 # Preprocessing pipelines, Regression/Classification, Power BI Dashboards
-├── 🏗️ Data_Structures/              # C/C++ & Python algorithm implementations, Case Studies & Mini Project
+├── 🤖 Artificial_Intelligence/       # Dual-track implementations: BFS, DFS, A*, Minimax, Alpha-Beta, Expert Systems
+├── 📊 Data_Science/                  # Preprocessing pipelines, Regression/Classification, Power BI Dashboards
+├── 🏗️ Data_Structures/               # C/C++ & Python algorithm implementations, Case Studies & Mini Project
 ├── 🗄️ Database_Management_System/    # SQL DDL/DML, PL/SQL Procedures/Triggers, NoSQL MongoDB & Mini Projects
-├── 💻 Object_Oriented_Programming/  # Java OOP fundamentals (Practicals 1-10), Design Patterns & Mini Project
+├── 💻 Object_Oriented_Programming/   # Java OOP fundamentals (Practicals 1-10), Design Patterns & Mini Project
 ├── 📈 Probability_and_Statistics/    # Distribution analysis, Correlation, Hypothesis testing & Unit 3-4 Case Studies
-├── 🌐 Internet_Of_Things/           # 11 Practicals, 5 Notebooks, Hardware Ino, 22-Page Master PDF Report & AIoT Mini Project
-├── 🧠 Machine_Learning/             # 11 Practicals (26 Dual-Track Notebooks): Regressions, SVM, DBSCAN, Ensembles & RL
-└── 🗣️ Natural_Language_Processing/  # 10 Practicals (Dual-Track) + AniSense Capstone Recommendation Engine
+├── 🌐 Internet_Of_Things/            # 11 Practicals, 5 Notebooks, Hardware Ino, 22-Page Master PDF Report & AIoT Mini Project
+├── 🧠 Machine_Learning/              # 11 Practicals (26 Dual-Track Notebooks): Regressions, SVM, DBSCAN, Ensembles & RL
+└── 🗣️ Natural_Language_Processing/   # 10 Practicals (Dual-Track) + AniSense Capstone Recommendation Engine
 ```
 
 ---
 
 ## 📊 Course Coverage & Statistics
 
-| Laboratory Domain               | Total Units / Practicals |   Notebooks / Scripts   | Primary Technologies & Libraries        | Key Highlights & Capstones                                                           |
-| :------------------------------ | :----------------------: | :---------------------: | :-------------------------------------- | :----------------------------------------------------------------------------------- |
-| **Artificial Intelligence**     |     **6 Practicals**     |   12 Implementations    | Python, Matplotlib, NetworkX            | Dual-Track Basic/Advance, Animated Graph Visualizations, Minimax Game Engines        |
-| **Data Science**                |     **8 Practicals**     |  8 Notebooks + Reports  | Pandas, NumPy, Scikit-Learn, Power BI   | Exploratory Data Analysis, Outlier Filtering, Executive Dashboard Reports            |
-| **Data Structures**             |    **11+ Practicals**    |    30+ Source Files     | C, C++, Python                          | Core Abstract Data Types, Tree Traversals, Graph Shortest Paths, Mini Project        |
-| **DBMS**                        |     **9 Practicals**     |       20+ Scripts       | MySQL, PostgreSQL, MongoDB, PL/SQL      | Relational Normalization, Indexing, Triggers, Aggregation Pipelines                  |
-| **Object-Oriented Programming** |    **10 Practicals**     |    25+ Java Classes     | Java (JDK 8+), Eclipse / IntelliJ       | Polymorphism, Custom Exceptions, Multithreading, Banking/ATM Simulations             |
-| **Probability & Statistics**    |    **2 Case Studies**    | Comprehensive Notebooks | Pandas, SciPy, Matplotlib               | Real-World Empirical Distributions, Central Limit Theorem, Hypothesis Testing        |
+| Laboratory Domain               |     Total Units / Practicals     |          Notebooks / Scripts           | Primary Technologies & Libraries                   | Key Highlights & Capstones                                                                            |
+| :------------------------------ | :------------------------------: | :------------------------------------: | :------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **Artificial Intelligence**     |         **6 Practicals**         |           12 Implementations           | Python, Matplotlib, NetworkX                       | Dual-Track Basic/Advance, Animated Graph Visualizations, Minimax Game Engines                         |
+| **Data Science**                |         **8 Practicals**         |         8 Notebooks + Reports          | Pandas, NumPy, Scikit-Learn, Power BI              | Exploratory Data Analysis, Outlier Filtering, Executive Dashboard Reports                             |
+| **Data Structures**             |        **11+ Practicals**        |            30+ Source Files            | C, C++, Python                                     | Core Abstract Data Types, Tree Traversals, Graph Shortest Paths, Mini Project                         |
+| **DBMS**                        |         **9 Practicals**         |              20+ Scripts               | MySQL, PostgreSQL, MongoDB, PL/SQL                 | Relational Normalization, Indexing, Triggers, Aggregation Pipelines                                   |
+| **Object-Oriented Programming** |        **10 Practicals**         |            25+ Java Classes            | Java (JDK 8+), Eclipse / IntelliJ                  | Polymorphism, Custom Exceptions, Multithreading, Banking/ATM Simulations                              |
+| **Probability & Statistics**    |        **2 Case Studies**        |        Comprehensive Notebooks         | Pandas, SciPy, Matplotlib                          | Real-World Empirical Distributions, Central Limit Theorem, Hypothesis Testing                         |
 | **Internet of Things**          | **11 Practicals & Mini Project** | 5 Notebooks + 11 Ino/Scripts + 22p PDF | C/C++, Arduino IDE, pySerial, Pandas, Scikit-Learn | Sensor Interfacing (TMP36, MQ-2, RFID), Device Protocols, ML Forecasting & Capstone AIoT Mini Project |
-| **Machine Learning**            |    **11 Practicals**     |    **26 Notebooks**     | Scikit-Learn, NumPy, SciPy, Statsmodels | Dual-Track (Basic & Advance), Bias-Variance Diagnostics, GridSearchCV, Grid World RL |
-| **Natural Language Processing** |    **10 Practicals**     |    **14 Notebooks**     | NLTK, spaCy, PyTorch, Transformers      | Dual-Track (Basic & Advance), Seq2Seq Summarization, AniSense Capstone Project       |
+| **Machine Learning**            | **11 Practicals & Mini Project** |            **26 Notebooks**            | Scikit-Learn, NumPy, SciPy, Statsmodels            | Dual-Track (Basic & Advance), Bias-Variance Diagnostics, GridSearchCV, Grid World RL                  |
+| **Natural Language Processing** | **10 Practicals & Mini Project** |            **14 Notebooks**            | NLTK, spaCy, PyTorch, Transformers                 | Dual-Track (Basic & Advance), Seq2Seq Summarization, AniSense Capstone Project                        |
 
 ---
 
@@ -112,10 +112,10 @@ Create and activate a central Python virtual environment (Python 3.10+ recommend
 python -m venv venv
 
 # Activate on Windows (PowerShell)
-.env\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 
 # Activate on Windows (Command Prompt)
-.env\Scriptsctivate.bat
+.venv\Scripts\Activate.bat
 
 # Activate on Linux / macOS
 source venv/bin/activate
@@ -153,16 +153,16 @@ jupyter notebook
 
 <div align="left">
 
-| Category                             | Technologies & Tools                                                           |
-| :----------------------------------- | :----------------------------------------------------------------------------- |
-| **Programming Languages**            | `Python 3.10+`, `Java (JDK 8+)`, `C / C++`, `SQL`, `JavaScript`                |
-| **Machine Learning & Deep Learning** | `Scikit-Learn`, `PyTorch`, `Hugging Face Transformers`, `Statsmodels`, `SciPy` |
-| **NLP & Linguistic Processing**      | `NLTK`, `spaCy` (`en_core_web_sm`), `WordCloud`, `ROUGE-Score`                 |
-| **Data Engineering & Manipulation**  | `NumPy`, `Pandas`, `JSON`, `CSV / TSV / Parquet`                               |
-| **Visualization & Reporting**        | `Matplotlib`, `Seaborn`, `Plotly`, `NetworkX`, `Microsoft Power BI`            |
-| **Databases & Query Systems**        | `MySQL`, `PostgreSQL`, `MongoDB (NoSQL)`, `PL/SQL`                             |
+| Category                             | Technologies & Tools                                                                                                       |
+| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Programming Languages**            | `Python 3.10+`, `Java (JDK 8+)`, `C / C++`, `SQL`, `JavaScript`                                                            |
+| **Machine Learning & Deep Learning** | `Scikit-Learn`, `PyTorch`, `Hugging Face Transformers`, `Statsmodels`, `SciPy`                                             |
+| **NLP & Linguistic Processing**      | `NLTK`, `spaCy` (`en_core_web_sm`), `WordCloud`, `ROUGE-Score`                                                             |
+| **Data Engineering & Manipulation**  | `NumPy`, `Pandas`, `JSON`, `CSV / TSV / Parquet`                                                                           |
+| **Visualization & Reporting**        | `Matplotlib`, `Seaborn`, `Plotly`, `NetworkX`, `Microsoft Power BI`                                                        |
+| **Databases & Query Systems**        | `MySQL`, `PostgreSQL`, `MongoDB (NoSQL)`, `PL/SQL`                                                                         |
 | **Hardware & IoT Telemetry**         | `Arduino Uno`, `ESP8266 / ESP32`, `TMP36`, `MQ-2`, `RFID MFRC522`, `pySerial`, `HTTP REST`, `Cryptography (SHA-256 / AES)` |
-| **Interactive Environments**         | `Jupyter Notebook`, `JupyterLab`, `VS Code`, `Google Colab`                    |
+| **Interactive Environments**         | `Jupyter Notebook`, `JupyterLab`, `VS Code`, `Google Colab`                                                                |
 
 </div>
 
