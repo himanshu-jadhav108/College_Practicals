@@ -23,7 +23,7 @@
 
 ---
 
-**A production-grade, mathematically rigorous, and fully documented academic repository containing essential practical experiments, dual-track conceptual and advanced notebooks, and capstone engineering implementations for Artificial Intelligence, Data Science, Data Structures, DBMS, Object-Oriented Programming, Probability & Statistics, Internet of Things, Machine Learning, and Natural Language Processing.**
+**A production-grade, mathematically rigorous, and fully documented academic repository containing essential practical experiments, dual-track conceptual and advanced notebooks, and capstone engineering implementations for Artificial Intelligence, Cloud Computing, Data Science, Data Structures, DBMS, Object-Oriented Programming, Probability & Statistics, Internet of Things, Machine Learning, and Natural Language Processing.**
 
 [Quick Access](#-subject-navigation) • [Key Highlights](#-key-features--highlights) • [Repository Tree](#-repository-directory-structure) • [Course Coverage](#-course-coverage--statistics) • [Getting Started](#-getting-started) • [Tech Stack](#-core-technologies--ecosystem) • [Maintainer](#-maintainer--academic-information)
 
@@ -36,6 +36,7 @@
 | Subject                            | Curriculum Focus & Highlights                                                                                                       |            Modules / Projects             |   Status    |                 Explorer                  |
 | :--------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------: | :---------: | :---------------------------------------: |
 | **🤖 Artificial Intelligence**     | Uninformed/Informed Search (BFS, DFS, A\*), Minimax Game Playing, Alpha-Beta Pruning, Expert Systems                                |  **6 Practicals** _(12 Implementations)_  | `Completed` |   [Explore ↗](Artificial_Intelligence/)   |
+| **☁️ Cloud Computing**            | Healthcare Genomics & Protein Lattice Modeling in Cloud, ECG Signal Telemetry, Cloud IAM, JWT Cryptographic Auth, Zero-Trust Policies |     **2 Comprehensive Case Studies**      | `Completed` |        [Explore ↗](Cloud_Computing/)      |
 | **📊 Data Science**                | Advanced Preprocessing, Exploratory Data Analysis (EDA), Statistical Modeling, Interactive Power BI Dashboards                      |             **8 Practicals**              | `Completed` |        [Explore ↗](Data_Science/)         |
 | **🏗️ Data Structures**             | C & Python-based Linear/Non-linear structures, Linked Lists, Trees, Graphs, Sorting, Algorithm Case Studies                         |     **11+ Practicals & Mini Project**     | `Completed` |       [Explore ↗](Data_Structures/)       |
 | **🗄️ Database Management**         | Relational Schemas, Complex SQL Queries, PL/SQL Stored Procedures & Triggers, NoSQL MongoDB Pipelines                               |     **9 Practicals & Mini Projects**      | `Completed` | [Explore ↗](Database_Management_System/)  |
@@ -58,6 +59,7 @@
 - 🎮 **Applied Capstone & Mini-Projects** – Features real-world projects such as **AniSense** (Anime Sentiment & Hybrid Recommendation Engine), **The Shrine Trial** (Reinforcement Learning Grid World with Q-Learning and SARSA), and interactive Business Intelligence dashboards.
 - 🏫 **100% SPPU Syllabus Alignment** – Structured specifically according to the Savitribai Phule Pune University (SPPU) Third-Year / Final-Year Engineering curriculum.
 - 🌐 **Comprehensive IoT & Edge-to-Cloud Hardware Suite** – Complete end-to-end embedded laboratory featuring Arduino UNO sensor interfacing (TMP36, IR Obstacle, MQ-2 Gas, MFRC522 RFID), dual-node UART & HTTP REST device-to-server telemetry, edge data preprocessing, ML temperature forecasting, cryptographic access control (SHA-256), Privacy-by-Design thresholding, and a full Capstone AIoT Mini Project with an official 22-page print-ready master submission report.
+- ☁️ **Cloud Computing Architecture & Cryptographic Security Suite** – Dual comprehensive case studies and interactive Colab-compatible laboratory notebooks addressing Unit 3 (Cloud Applications in Healthcare & Biology: Needleman-Wunsch DNA sequence alignment, 2D Hydrophobic-Polar protein lattice folding, synthetic ECG bandpass filtering & R-peak extraction) and Unit 4 (Cloud Identity, Authentication & Authorization: RS256 cryptographic JWT validation with exploit mitigation, default-deny Zero-Trust IAM policy evaluation engine, and enterprise AWS/Azure/GCP service mappings) accompanied by official academic submission reports.
 
 ---
 
@@ -66,6 +68,7 @@
 ```text
 College_Practicals/
 ├── 🤖 Artificial_Intelligence/       # Dual-track implementations: BFS, DFS, A*, Minimax, Alpha-Beta, Expert Systems
+├── ☁️ Cloud_Computing/               # Healthcare/Genomics computing, ECG Signal Processing, Cloud IAM & JWT Zero-Trust
 ├── 📊 Data_Science/                  # Preprocessing pipelines, Regression/Classification, Power BI Dashboards
 ├── 🏗️ Data_Structures/               # C/C++ & Python algorithm implementations, Case Studies & Mini Project
 ├── 🗄️ Database_Management_System/    # SQL DDL/DML, PL/SQL Procedures/Triggers, NoSQL MongoDB & Mini Projects
@@ -83,6 +86,7 @@ College_Practicals/
 | Laboratory Domain               |     Total Units / Practicals     |          Notebooks / Scripts           | Primary Technologies & Libraries                   | Key Highlights & Capstones                                                                            |
 | :------------------------------ | :------------------------------: | :------------------------------------: | :------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
 | **Artificial Intelligence**     |         **6 Practicals**         |           12 Implementations           | Python, Matplotlib, NetworkX                       | Dual-Track Basic/Advance, Animated Graph Visualizations, Minimax Game Engines                         |
+| **Cloud Computing**             |        **2 Case Studies**        |         2 Demo Notebooks + 2 PDF Reports         | Python, NumPy, SciPy, Pandas, Matplotlib, Cryptography | Healthcare & Biology Cloud Pipeline (Needleman-Wunsch, HP Lattice, ECG), Cryptographic JWT & Zero-Trust IAM Policy Engine |
 | **Data Science**                |         **8 Practicals**         |         8 Notebooks + Reports          | Pandas, NumPy, Scikit-Learn, Power BI              | Exploratory Data Analysis, Outlier Filtering, Executive Dashboard Reports                             |
 | **Data Structures**             |        **11+ Practicals**        |            30+ Source Files            | C, C++, Python                                     | Core Abstract Data Types, Tree Traversals, Graph Shortest Paths, Mini Project                         |
 | **DBMS**                        |         **9 Practicals**         |              20+ Scripts               | MySQL, PostgreSQL, MongoDB, PL/SQL                 | Relational Normalization, Indexing, Triggers, Aggregation Pipelines                                   |
@@ -145,6 +149,14 @@ jupyter notebook
 cd ../Internet_Of_Things
 pip install pyserial pandas scikit-learn matplotlib cryptography
 jupyter notebook
+
+# Example: Running Cloud Computing Case Studies
+cd ../Cloud_Computing/Case_Study_Unit_3
+jupyter notebook Healthcare_Biology_Demo.ipynb
+
+cd ../Case_Study_Unit_4
+pip install cryptography pandas matplotlib
+jupyter notebook Cloud_Identity_Security_Demo.ipynb
 ```
 
 ---
@@ -161,6 +173,7 @@ jupyter notebook
 | **Data Engineering & Manipulation**  | `NumPy`, `Pandas`, `JSON`, `CSV / TSV / Parquet`                                                                           |
 | **Visualization & Reporting**        | `Matplotlib`, `Seaborn`, `Plotly`, `NetworkX`, `Microsoft Power BI`                                                        |
 | **Databases & Query Systems**        | `MySQL`, `PostgreSQL`, `MongoDB (NoSQL)`, `PL/SQL`                                                                         |
+| **Cloud Platforms & IAM Security**   | `AWS`, `Microsoft Azure`, `Google Cloud (GCP)`, `Cloud IAM`, `JWT (RS256 / OIDC)`, `Zero-Trust Policy Engine`               |
 | **Hardware & IoT Telemetry**         | `Arduino Uno`, `ESP8266 / ESP32`, `TMP36`, `MQ-2`, `RFID MFRC522`, `pySerial`, `HTTP REST`, `Cryptography (SHA-256 / AES)` |
 | **Interactive Environments**         | `Jupyter Notebook`, `JupyterLab`, `VS Code`, `Google Colab`                                                                |
 
