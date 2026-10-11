@@ -1,4 +1,4 @@
-# 🌐 Internet of Things (IoT) Practicals – SPPU 2024–2025
+# 🌐 Internet of Things (IoT) Practicals – SPPU 2026–2027
 
 > **Third-Year / Final-Year Engineering | Savitribai Phule Pune University**  
 > **Repository:** Final Practical Submission Package & Laboratory Codebase  
