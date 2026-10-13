@@ -35,7 +35,7 @@
 
 | Subject                            | Curriculum Focus & Highlights                                                                                                       |            Modules / Projects             |   Status    |                 Explorer                  |
 | :--------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------: | :---------: | :---------------------------------------: |
-| **🤖 Artificial Intelligence**     | Uninformed/Informed Search (BFS, DFS, A\*), Minimax Game Playing, Alpha-Beta Pruning, Expert Systems                                |  **6 Practicals** _(12 Implementations)_  | `Completed` |   [Explore ↗](Artificial_Intelligence/)   |
+| **🤖 Artificial Intelligence**     | Dual-branch curriculum: CS Branch (9 Practicals: Vacuum Cleaner, A\*, Alpha-Beta, Hanoi, BFS Path, 8-Queens, Minimax) & AI&DS Branch | **15 Practicals** _(30 Notebooks & Scripts)_ | `Completed` | [Explore ↗](Artificial_Intelligence/) |
 | **☁️ Cloud Computing**            | Healthcare Genomics & Protein Lattice Modeling in Cloud, ECG Signal Telemetry, Cloud IAM, JWT Cryptographic Auth, Zero-Trust Policies |     **2 Comprehensive Case Studies**      | `Completed` |        [Explore ↗](Cloud_Computing/)      |
 | **📊 Data Science**                | Advanced Preprocessing, Exploratory Data Analysis (EDA), Statistical Modeling, Interactive Power BI Dashboards                      |             **8 Practicals**              | `Completed` |        [Explore ↗](Data_Science/)         |
 | **🏗️ Data Structures**             | C & Python-based Linear/Non-linear structures, Linked Lists, Trees, Graphs, Sorting, Algorithm Case Studies                         |     **11+ Practicals & Mini Project**     | `Completed` |       [Explore ↗](Data_Structures/)       |
@@ -53,6 +53,7 @@
 - 🔬 **Dual-Track Implementation Pedagogy** – Every major laboratory domain (Machine Learning, Natural Language Processing, Artificial Intelligence) provides a two-tiered learning structure:
   - **🟢 Basic Track:** Clear, self-contained conceptual notebooks emphasizing fundamental principles, standard workflows, and core APIs.
   - **🚀 Advance Track:** Production-grade implementations with LaTeX mathematical formulations, custom algorithms built from scratch without black-box shortcuts, ablation studies, and publication-quality diagnostic plots.
+- 🤖 **Comprehensive AI Suite (CS & AI&DS Tracks)** – Dual-branch engineering coverage featuring **Track 1 (CS Branch)**: 9 practicals with both standard and visualized interactive suites (ipywidgets move steppers, live A* tile grid playback, 4-tier game tree alpha-beta pruning cutoff visualizers, 8-queens tournament chessboard conflict inspectors, and expert system recommendation dashboards) alongside **Track 2 (AI&DS Branch)**: 6 dual-track (Basic & Advance) mathematical graph and search algorithms.
 - 📊 **Exhaustive Diagnostic Visualizations** – Includes residual homoscedasticity plots, learning curves, ROC-AUC / PR curves, Voronoi tessellations, decision boundary contours, Q-value surface plots, and ROUGE evaluation radar charts.
 - 🧠 **Modern Transformer & Deep Learning Integration** – Practical deployment of Hugging Face Seq2Seq models (`DistilBART`), spaCy statistical pipelines (`en_core_web_sm`), and PyTorch neural components.
 - 📐 **Enterprise-Grade Database Scripts** – Full relational modeling in MySQL/PostgreSQL alongside document-oriented aggregation pipelines in MongoDB.
@@ -67,7 +68,7 @@
 
 ```text
 College_Practicals/
-├── 🤖 Artificial_Intelligence/       # Dual-track implementations: BFS, DFS, A*, Minimax, Alpha-Beta, Expert Systems
+├── 🤖 Artificial_Intelligence/       # CS Branch (9 Normal + 9 Visualized Interactive) & AI&DS Branch (6 Dual-Track)
 ├── ☁️ Cloud_Computing/               # Healthcare/Genomics computing, ECG Signal Processing, Cloud IAM & JWT Zero-Trust
 ├── 📊 Data_Science/                  # Preprocessing pipelines, Regression/Classification, Power BI Dashboards
 ├── 🏗️ Data_Structures/               # C/C++ & Python algorithm implementations, Case Studies & Mini Project
@@ -85,7 +86,7 @@ College_Practicals/
 
 | Laboratory Domain               |     Total Units / Practicals     |          Notebooks / Scripts           | Primary Technologies & Libraries                   | Key Highlights & Capstones                                                                            |
 | :------------------------------ | :------------------------------: | :------------------------------------: | :------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
-| **Artificial Intelligence**     |         **6 Practicals**         |           12 Implementations           | Python, Matplotlib, NetworkX                       | Dual-Track Basic/Advance, Animated Graph Visualizations, Minimax Game Engines                         |
+| **Artificial Intelligence**     | **15 Practicals (Dual-Track)**   | **30 Implementations / Notebooks**     | Python, Matplotlib, ipywidgets, NetworkX, NumPy    | CS Branch (9 Normal + 9 Visualized Interactive Steppers) & AI&DS Branch (6 Basic/Advance Implementations) |
 | **Cloud Computing**             |        **2 Case Studies**        |         2 Demo Notebooks + 2 PDF Reports         | Python, NumPy, SciPy, Pandas, Matplotlib, Cryptography | Healthcare & Biology Cloud Pipeline (Needleman-Wunsch, HP Lattice, ECG), Cryptographic JWT & Zero-Trust IAM Policy Engine |
 | **Data Science**                |         **8 Practicals**         |         8 Notebooks + Reports          | Pandas, NumPy, Scikit-Learn, Power BI              | Exploratory Data Analysis, Outlier Filtering, Executive Dashboard Reports                             |
 | **Data Structures**             |        **11+ Practicals**        |            30+ Source Files            | C, C++, Python                                     | Core Abstract Data Types, Tree Traversals, Graph Shortest Paths, Mini Project                         |
@@ -134,6 +135,11 @@ pip install -r requirements.txt
 For dedicated domains with specialized packages (e.g. Hugging Face Transformers, spaCy linguistic models, Statsmodels), enter the respective subject directory and follow its local `README.md`:
 
 ```bash
+# Example: Running Artificial Intelligence Lab (Visualized Suite)
+cd Artificial_Intelligence
+pip install -r requirements.txt
+jupyter notebook "AI for CS Branch/Visualized/01_vacuum_cleaner_agent.ipynb"
+
 # Example: Running Machine Learning Lab
 cd Machine_Learning
 pip install -r requirements.txt
@@ -175,7 +181,7 @@ jupyter notebook Cloud_Identity_Security_Demo.ipynb
 | **Databases & Query Systems**        | `MySQL`, `PostgreSQL`, `MongoDB (NoSQL)`, `PL/SQL`                                                                         |
 | **Cloud Platforms & IAM Security**   | `AWS`, `Microsoft Azure`, `Google Cloud (GCP)`, `Cloud IAM`, `JWT (RS256 / OIDC)`, `Zero-Trust Policy Engine`               |
 | **Hardware & IoT Telemetry**         | `Arduino Uno`, `ESP8266 / ESP32`, `TMP36`, `MQ-2`, `RFID MFRC522`, `pySerial`, `HTTP REST`, `Cryptography (SHA-256 / AES)` |
-| **Interactive Environments**         | `Jupyter Notebook`, `JupyterLab`, `VS Code`, `Google Colab`                                                                |
+| **Interactive Environments**         | `Jupyter Notebook`, `JupyterLab`, `VS Code`, `Google Colab`, `ipywidgets`                                                    |
 
 </div>
 
