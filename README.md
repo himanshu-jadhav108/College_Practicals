@@ -9,12 +9,20 @@
 > **Author:** Himanshu Jadhav
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Java](https://img.shields.io/badge/Java-JDK--8%2B-orange?logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-JDK--8%2B-orange?logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![C++](https://img.shields.io/badge/C%2F%20C%2B%2B-17%2F20-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-v1.3%2B-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-v2.x-red?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/)
+[![spaCy](https://img.shields.io/badge/spaCy-v3.x-09A3D5?logo=spacy&logoColor=white)](https://spacy.io/)
+
+[![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-232F3E?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Arduino](https://img.shields.io/badge/Hardware-Arduino%20UNO-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![SQL](https://img.shields.io/badge/SQL-MySQL%20%7C%20PostgreSQL-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![NoSQL](https://img.shields.io/badge/NoSQL-MongoDB-green?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboards-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Status](<https://img.shields.io/badge/Status-Completed%20(100%25)-brightgreen>)](#)
 [![SPPU](https://img.shields.io/badge/University-SPPU%202024-orange)](http://www.unipune.ac.in/)
