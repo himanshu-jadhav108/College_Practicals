@@ -1,9 +1,9 @@
 
 venv/
-Artificial_Intelligence\graphviz
+Artificial_Intelligence/graphviz
 .venv
 *.class
 graphviz
-
+Artificial_Intelligence/custom
 One-For-All
 IoT_Practical_Submission_Report.pdf
